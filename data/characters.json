@@ -1,0 +1,300 @@
+{
+  "version": 4,
+  "themeId": "underworld_2200",
+  "showCharacterNames": true,
+  "playerCharacterId": "mj2_p01",
+  "characters": [
+    {
+      "id": "mj2_p01",
+      "name": "麻村 雀太郎",
+      "age": null,
+      "organizationId": null,
+      "role": "主人公",
+      "appearance": "若い成人男性。立派なリーゼント、鋭い目つきのヤンキー。",
+      "stageId": null,
+      "portrait": "assets/portraits/mj2_p01.png",
+      "portraitHD": "assets/portraits_hd/mj2_p01.jpg",
+      "size": [
+        320,
+        320
+      ],
+      "sliceTopInset": 0,
+      "traits": [],
+      "sourceType": "original_generated_live_action_style",
+      "portrait320": "assets/portraits/mj2_p01.png"
+    },
+    {
+      "id": "mj2_c01",
+      "name": "紅蓮ポン太郎",
+      "age": 53,
+      "organizationId": "mj2_org01",
+      "role": "組長",
+      "strength": "strong",
+      "stageId": "mj2_org01",
+      "portrait": "assets/portraits/mj2_c01.png",
+      "portraitHD": "assets/portraits_hd/mj2_c01.jpg",
+      "size": [
+        320,
+        320
+      ],
+      "sliceTopInset": 0,
+      "traits": [],
+      "sourceType": "original_generated_live_action_style",
+      "portrait320": "assets/portraits/mj2_c01.png"
+    },
+    {
+      "id": "mj2_c02",
+      "name": "竜巻正平",
+      "age": 40,
+      "organizationId": "mj2_org01",
+      "role": "若頭",
+      "stageId": "mj2_org01",
+      "portrait": "assets/portraits/mj2_c02.png",
+      "portraitHD": "assets/portraits_hd/mj2_c02.jpg",
+      "size": [
+        320,
+        320
+      ],
+      "sliceTopInset": 0,
+      "traits": [],
+      "sourceType": "original_generated_live_action_style",
+      "portrait320": "assets/portraits/mj2_c02.png"
+    },
+    {
+      "id": "mj2_c03",
+      "name": "武之氏宗太郎",
+      "age": 32,
+      "organizationId": "mj2_org01",
+      "role": "若手",
+      "stageId": "mj2_org01",
+      "portrait": "assets/portraits/mj2_c03.png",
+      "portraitHD": "assets/portraits_hd/mj2_c03.jpg",
+      "size": [
+        320,
+        320
+      ],
+      "sliceTopInset": 0,
+      "traits": [],
+      "sourceType": "original_generated_live_action_style",
+      "portrait320": "assets/portraits/mj2_c03.png"
+    },
+    {
+      "id": "mj2_c04",
+      "name": "チー山宝生",
+      "age": 38,
+      "organizationId": "mj2_org02",
+      "role": "総長",
+      "stageId": "mj2_org02",
+      "portrait": "assets/portraits/mj2_c04.png",
+      "portraitHD": "assets/portraits_hd/mj2_c04.jpg",
+      "size": [
+        320,
+        320
+      ],
+      "sliceTopInset": 0,
+      "traits": [],
+      "sourceType": "original_generated_live_action_style",
+      "portrait320": "assets/portraits/mj2_c04.png"
+    },
+    {
+      "id": "mj2_c05",
+      "name": "森城健司",
+      "age": 35,
+      "organizationId": "mj2_org02",
+      "role": "秘書",
+      "stageId": "mj2_org02",
+      "portrait": "assets/portraits/mj2_c05.png",
+      "portraitHD": "assets/portraits_hd/mj2_c05.jpg",
+      "size": [
+        320,
+        320
+      ],
+      "sliceTopInset": 0,
+      "traits": [],
+      "sourceType": "original_generated_live_action_style",
+      "portrait320": "assets/portraits/mj2_c05.png"
+    },
+    {
+      "id": "mj2_c06",
+      "name": "布施義男",
+      "age": 23,
+      "organizationId": "mj2_org02",
+      "role": "若手",
+      "stageId": "mj2_org02",
+      "portrait": "assets/portraits/mj2_c06.png",
+      "portraitHD": "assets/portraits_hd/mj2_c06.jpg",
+      "size": [
+        320,
+        320
+      ],
+      "sliceTopInset": 0,
+      "traits": [],
+      "sourceType": "original_generated_live_action_style",
+      "portrait320": "assets/portraits/mj2_c06.png"
+    },
+    {
+      "id": "mj2_c07",
+      "name": "織田カン太郎",
+      "age": 75,
+      "organizationId": "mj2_org03",
+      "role": "首領",
+      "stageId": "mj2_org03",
+      "portrait": "assets/portraits/mj2_c07.png",
+      "portraitHD": "assets/portraits_hd/mj2_c07.jpg",
+      "size": [
+        320,
+        320
+      ],
+      "sliceTopInset": 0,
+      "traits": [],
+      "sourceType": "original_generated_live_action_style",
+      "portrait320": "assets/portraits/mj2_c07.png"
+    },
+    {
+      "id": "mj2_c08",
+      "name": "吉田ういろう",
+      "age": 45,
+      "organizationId": "mj2_org03",
+      "role": "右腕",
+      "stageId": "mj2_org03",
+      "portrait": "assets/portraits/mj2_c08.png",
+      "portraitHD": "assets/portraits_hd/mj2_c08.jpg",
+      "size": [
+        320,
+        320
+      ],
+      "sliceTopInset": 0,
+      "traits": [],
+      "sourceType": "original_generated_live_action_style",
+      "portrait320": "assets/portraits/mj2_c08.png"
+    },
+    {
+      "id": "mj2_c09",
+      "name": "クラック・アンダーソン",
+      "age": 33,
+      "organizationId": "mj2_org03",
+      "role": "構成員",
+      "stageId": "mj2_org03",
+      "portrait": "assets/portraits/mj2_c09.png",
+      "portraitHD": "assets/portraits_hd/mj2_c09.jpg",
+      "size": [
+        320,
+        320
+      ],
+      "sliceTopInset": 0,
+      "traits": [],
+      "sourceType": "original_generated_live_action_style",
+      "portrait320": "assets/portraits/mj2_c09.png"
+    },
+    {
+      "id": "mj2_c10",
+      "name": "天王山ロン平",
+      "age": 38,
+      "organizationId": "mj2_org04",
+      "role": "組長",
+      "stageId": "mj2_org04",
+      "portrait": "assets/portraits/mj2_c10.png",
+      "portraitHD": "assets/portraits_hd/mj2_c10.jpg",
+      "size": [
+        320,
+        320
+      ],
+      "sliceTopInset": 0,
+      "traits": [],
+      "sourceType": "original_generated_live_action_style",
+      "portrait320": "assets/portraits/mj2_c10.png"
+    },
+    {
+      "id": "mj2_c11",
+      "name": "天王山祥子",
+      "age": 38,
+      "organizationId": "mj2_org04",
+      "role": "組長の妻",
+      "stageId": "mj2_org04",
+      "portrait": "assets/portraits/mj2_c11.png",
+      "portraitHD": "assets/portraits_hd/mj2_c11.jpg",
+      "size": [
+        320,
+        320
+      ],
+      "sliceTopInset": 0,
+      "traits": [],
+      "sourceType": "original_generated_live_action_style",
+      "portrait320": "assets/portraits/mj2_c11.png"
+    },
+    {
+      "id": "mj2_c12",
+      "name": "坂出竜太郎",
+      "age": 40,
+      "organizationId": "mj2_org04",
+      "role": "元ボクサー",
+      "stageId": "mj2_org04",
+      "portrait": "assets/portraits/mj2_c12.png",
+      "portraitHD": "assets/portraits_hd/mj2_c12.jpg",
+      "size": [
+        320,
+        320
+      ],
+      "sliceTopInset": 0,
+      "traits": [],
+      "sourceType": "original_generated_live_action_style",
+      "portrait320": "assets/portraits/mj2_c12.png"
+    },
+    {
+      "id": "mj2_c13",
+      "name": "赤羽ツモ彦",
+      "age": 65,
+      "organizationId": "mj2_org05",
+      "role": "首領",
+      "stageId": "mj2_org05",
+      "portrait": "assets/portraits/mj2_c13.png",
+      "portraitHD": "assets/portraits_hd/mj2_c13.jpg",
+      "size": [
+        320,
+        320
+      ],
+      "sliceTopInset": 0,
+      "traits": [],
+      "sourceType": "original_generated_live_action_style",
+      "portrait320": "assets/portraits/mj2_c13.png"
+    },
+    {
+      "id": "mj2_c14",
+      "name": "双鳥羽佐助",
+      "age": 28,
+      "organizationId": "mj2_org05",
+      "role": "最強の打ち手",
+      "traits": [
+        "yakuman_tenpai_start"
+      ],
+      "stageId": "mj2_org05",
+      "portrait": "assets/portraits/mj2_c14.png",
+      "portraitHD": "assets/portraits_hd/mj2_c14.jpg",
+      "size": [
+        320,
+        320
+      ],
+      "sliceTopInset": 0,
+      "sourceType": "original_generated_live_action_style",
+      "portrait320": "assets/portraits/mj2_c14.png"
+    },
+    {
+      "id": "mj2_c15",
+      "name": "長谷川京子",
+      "age": 22,
+      "organizationId": "mj2_org05",
+      "role": "レディース",
+      "stageId": "mj2_org05",
+      "portrait": "assets/portraits/mj2_c15.png",
+      "portraitHD": "assets/portraits_hd/mj2_c15.jpg",
+      "size": [
+        320,
+        320
+      ],
+      "sliceTopInset": 0,
+      "traits": [],
+      "sourceType": "original_generated_live_action_style",
+      "portrait320": "assets/portraits/mj2_c15.png"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "organizations": [
+    {
+      "id": "mj2_org01",
+      "name": "紅蓮組",
+      "location": "赤い部屋",
+      "description": "千葉を拠点とする極悪組織。",
+      "members": [
+        "mj2_c01",
+        "mj2_c02",
+        "mj2_c03"
+      ]
+    },
+    {
+      "id": "mj2_org02",
+      "name": "相模連合",
+      "location": "ビジネスミーティングルーム",
+      "description": "東京から神奈川を支配するインテリヤクザ集団。",
+      "members": [
+        "mj2_c04",
+        "mj2_c05",
+        "mj2_c06"
+      ]
+    },
+    {
+      "id": "mj2_org03",
+      "name": "愛知爆裂山",
+      "location": "工場の広場",
+      "description": "中京を支配する裏社会の大手。",
+      "members": [
+        "mj2_c07",
+        "mj2_c08",
+        "mj2_c09"
+      ]
+    },
+    {
+      "id": "mj2_org04",
+      "name": "難波大場組",
+      "location": "劇場の舞台の上",
+      "description": "大阪を支配する巨大な組織。暴力が全て。",
+      "members": [
+        "mj2_c10",
+        "mj2_c11",
+        "mj2_c12"
+      ]
+    },
+    {
+      "id": "mj2_org05",
+      "name": "邪見山連盟",
+      "location": "飲み屋",
+      "description": "広島を支配する、血も涙もない優秀な組織。日本最強とも言われる。",
+      "members": [
+        "mj2_c13",
+        "mj2_c14",
+        "mj2_c15"
+      ]
+    }
+  ]
+}

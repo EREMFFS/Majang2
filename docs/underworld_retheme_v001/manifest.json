@@ -1,0 +1,347 @@
+{
+  "pack": "MAHJONG2_UNDERWORLD_RETHEME_v001",
+  "portraits": 16,
+  "backgrounds": 5,
+  "files": [
+    {
+      "path": "PREVIEW_CHARACTERS.jpg",
+      "bytes": 372585,
+      "sha256": "b908a5398c7d73c051dbab414d36c0fd183a8b686c4db3397155cc664912aa7f"
+    },
+    {
+      "path": "PREVIEW_LOCATIONS.jpg",
+      "bytes": 345426,
+      "sha256": "4e7080c047f037cb6022509756eae334597230b0e03680c45466ac48f116dca1"
+    },
+    {
+      "path": "START_HERE_CLAUDE.md",
+      "bytes": 7449,
+      "sha256": "8f00304d9f0b03cd55d1cc69b9ba9ddd2b28ad6003310df5fef70fe8db843b78"
+    },
+    {
+      "path": "WORLD_AND_CAST.md",
+      "bytes": 3379,
+      "sha256": "50c0c55b74da30e297b2577063f1ce8882c8bd442833f840e1bf8fb487127428"
+    },
+    {
+      "path": "assets/backgrounds/mj2_org01.webp",
+      "bytes": 410732,
+      "sha256": "94098be85a1ed56da609e23e3fbeb4dddc75f49fd06cc545998f511b1b4af42f"
+    },
+    {
+      "path": "assets/backgrounds/mj2_org02.webp",
+      "bytes": 418584,
+      "sha256": "bb221016f1c0374221e0fee79d0812707b57a6af6ab0ed0ebd757a638901767f"
+    },
+    {
+      "path": "assets/backgrounds/mj2_org03.webp",
+      "bytes": 469330,
+      "sha256": "eb4387ca4a09f68dd421c89e2f9e173184f8b92ac06281a291fb829bf5b93f2b"
+    },
+    {
+      "path": "assets/backgrounds/mj2_org04.webp",
+      "bytes": 285488,
+      "sha256": "3775b78701bc95d0448eed537e06daf1fd8d6565f385beae54360f1c66501de4"
+    },
+    {
+      "path": "assets/backgrounds/mj2_org05.webp",
+      "bytes": 415538,
+      "sha256": "6e4b56e785eabe7f6d10aeca89f749981b46c255f6519ec72b4d4002bbb5298b"
+    },
+    {
+      "path": "assets/backgrounds_jpg/mj2_org01.jpg",
+      "bytes": 506629,
+      "sha256": "824ed4431cff5b3bca0f30bcf2489eb70649d06721fc55bd6e3b7c3800c8f56d"
+    },
+    {
+      "path": "assets/backgrounds_jpg/mj2_org02.jpg",
+      "bytes": 519582,
+      "sha256": "d72c5b26ebc1643d28c529bf2b5b3c57ac6c90884beb3f309642bd95822a5b12"
+    },
+    {
+      "path": "assets/backgrounds_jpg/mj2_org03.jpg",
+      "bytes": 572786,
+      "sha256": "a8f20fc4b801d153473aa5baf1826781575dd22bde8d4c84753178a74e280dc3"
+    },
+    {
+      "path": "assets/backgrounds_jpg/mj2_org04.jpg",
+      "bytes": 402722,
+      "sha256": "81353d2595ee365dbfedef115575d3bff9acac88083273217a7a541610d374c5"
+    },
+    {
+      "path": "assets/backgrounds_jpg/mj2_org05.jpg",
+      "bytes": 513080,
+      "sha256": "955e3291b187aeab4e02553870d176d61801434f0b3241046a82ceacaa49c0a3"
+    },
+    {
+      "path": "assets/portraits/mj2_c01.png",
+      "bytes": 389498,
+      "sha256": "8478876764a3da6127a34c1712a7ef408d1d1f3de730500a390dee680299bea9"
+    },
+    {
+      "path": "assets/portraits/mj2_c02.png",
+      "bytes": 416214,
+      "sha256": "30b79be14879883ea61402e3d32a10207a97c235cec1bf8d5da0a416d9b06267"
+    },
+    {
+      "path": "assets/portraits/mj2_c03.png",
+      "bytes": 374425,
+      "sha256": "63211d71ac7a669cd3d07a7c0d0a44c3deb2b321c62952528a57911c3a437d6d"
+    },
+    {
+      "path": "assets/portraits/mj2_c04.png",
+      "bytes": 403573,
+      "sha256": "99a8d72741c91ac328a4d945740f7b17bab17d8d6a04e6209d1bca3179e30cc3"
+    },
+    {
+      "path": "assets/portraits/mj2_c05.png",
+      "bytes": 424479,
+      "sha256": "438ae735f1cbece8df37040a2d0e60d256beb18ca7063b7e4419b6af52026b94"
+    },
+    {
+      "path": "assets/portraits/mj2_c06.png",
+      "bytes": 394324,
+      "sha256": "806dad2feb982ad3202fe85b28ae20724aa1a37e46bcdb53510d6d616a6a38d8"
+    },
+    {
+      "path": "assets/portraits/mj2_c07.png",
+      "bytes": 426075,
+      "sha256": "c16c214cafda5af61870df71bae7bdda7109146fe1987bbc937ffdfa08ebd0d0"
+    },
+    {
+      "path": "assets/portraits/mj2_c08.png",
+      "bytes": 364451,
+      "sha256": "c320124f375fb91a6dbb5bd419731919702ce739919d79e167c8ea7b67b2dbb6"
+    },
+    {
+      "path": "assets/portraits/mj2_c09.png",
+      "bytes": 421119,
+      "sha256": "0aee70f6e8a21c74b7e337e5016a4021abf78ddb35f7eca965ab677e5dd49c4b"
+    },
+    {
+      "path": "assets/portraits/mj2_c10.png",
+      "bytes": 411498,
+      "sha256": "4a74eb44ec399ec23fec6f4d8a45878717a201081437203cadf26a54035607ab"
+    },
+    {
+      "path": "assets/portraits/mj2_c11.png",
+      "bytes": 389381,
+      "sha256": "10ec0cefe70a0741f2c7466eb791a0058f2772b2ba887d5a103bd1dd0c2422ca"
+    },
+    {
+      "path": "assets/portraits/mj2_c12.png",
+      "bytes": 444846,
+      "sha256": "dc2ece79dad7a774e763532213556c7b334aa563c2262407079b52b5b48b3e76"
+    },
+    {
+      "path": "assets/portraits/mj2_c13.png",
+      "bytes": 467292,
+      "sha256": "5aa2ec6ebb885edb0f50199c4cd01e627bfa2b92695b3b8c105fbd4c0fa7382f"
+    },
+    {
+      "path": "assets/portraits/mj2_c14.png",
+      "bytes": 374519,
+      "sha256": "d89da0b41a4aad1fcdea1a76a7b9b264b562cd192d9b321758e50653bd57b06f"
+    },
+    {
+      "path": "assets/portraits/mj2_c15.png",
+      "bytes": 463942,
+      "sha256": "87952aaea4af2bbafa073fa78db32e5a3a37e24ed606032b0b83738bee475777"
+    },
+    {
+      "path": "assets/portraits/mj2_p01.png",
+      "bytes": 426991,
+      "sha256": "ac17afb231c17e2154749e3dffbf7106cf05865e4cf74ccccbd9b867eea0ca19"
+    },
+    {
+      "path": "assets/portraits_320/mj2_c01.png",
+      "bytes": 150244,
+      "sha256": "a3cbcae9e815e28cca299836daf5efb4ce07ef2e583500dc82010dfe59ff83d1"
+    },
+    {
+      "path": "assets/portraits_320/mj2_c02.png",
+      "bytes": 160402,
+      "sha256": "38b826e10e43dba1e453930bfb09ffb529c6ae3eac166b9967d768b6737e0059"
+    },
+    {
+      "path": "assets/portraits_320/mj2_c03.png",
+      "bytes": 147502,
+      "sha256": "b1d2c7c67967274695adbefcaa449e627bfa67e0a280969f5d7d93ab9145328c"
+    },
+    {
+      "path": "assets/portraits_320/mj2_c04.png",
+      "bytes": 156423,
+      "sha256": "67db7243d35916d02ba1cf7a84ac16573267d4d6016c2c85049bd39cbab28f70"
+    },
+    {
+      "path": "assets/portraits_320/mj2_c05.png",
+      "bytes": 161711,
+      "sha256": "3e1e2f617dc6df20ebf1a03590c3cdf805fa1d104cb94866c1d46fc7b6ba47d2"
+    },
+    {
+      "path": "assets/portraits_320/mj2_c06.png",
+      "bytes": 152735,
+      "sha256": "22309f2e1ce9ddc40394012fbb92f5a5b1a6c3196a8a500818c95ead25009573"
+    },
+    {
+      "path": "assets/portraits_320/mj2_c07.png",
+      "bytes": 164360,
+      "sha256": "5b5442415fd1d885acaac14c5cf36d008e52d3c73c7a8f604842ade33b197cf9"
+    },
+    {
+      "path": "assets/portraits_320/mj2_c08.png",
+      "bytes": 137824,
+      "sha256": "c5a989179f1a679c2b3110bf07e976678e66dca351e58b515486fb19f6f59017"
+    },
+    {
+      "path": "assets/portraits_320/mj2_c09.png",
+      "bytes": 161856,
+      "sha256": "6470846141a28b1c2bf4423c209c90de9c4ba2ce88336f4dc30018dd51962dcb"
+    },
+    {
+      "path": "assets/portraits_320/mj2_c10.png",
+      "bytes": 159901,
+      "sha256": "9acc723fd945bdee3aefb23ab153bb852b891e09844fa3732df66711e9a3eadc"
+    },
+    {
+      "path": "assets/portraits_320/mj2_c11.png",
+      "bytes": 151248,
+      "sha256": "b85517fd5fb7ddf7389feea632acddc12af02ef88854a0a7c8ea6b61a11d8bbe"
+    },
+    {
+      "path": "assets/portraits_320/mj2_c12.png",
+      "bytes": 174792,
+      "sha256": "c33b7fcdf7e017d270b8776c809ea56d7e92177b874e0628fcc7ccad33dc143c"
+    },
+    {
+      "path": "assets/portraits_320/mj2_c13.png",
+      "bytes": 180623,
+      "sha256": "c7b0cbdb6970987222f17cd96b3fe212776eacd2705dcc66dc84b657da16e61b"
+    },
+    {
+      "path": "assets/portraits_320/mj2_c14.png",
+      "bytes": 148162,
+      "sha256": "aa83a7f7b8dc06a3c80225e1de2c11c4afe366c695f17febb8c702d373250cf9"
+    },
+    {
+      "path": "assets/portraits_320/mj2_c15.png",
+      "bytes": 185899,
+      "sha256": "7777abebf933382e52664a1ed957fd53c6e1800662b4971376e273bac39aa95e"
+    },
+    {
+      "path": "assets/portraits_320/mj2_p01.png",
+      "bytes": 166543,
+      "sha256": "34a2b1cca0918669175c7aad43dfd828b64e1cf1cf5959722f257f953051d2af"
+    },
+    {
+      "path": "assets/portraits_hd/mj2_c01.jpg",
+      "bytes": 161653,
+      "sha256": "601b07091ed6dc7df058b5f1e4189e8ccc4636dc23527c524b7612b2439b1e73"
+    },
+    {
+      "path": "assets/portraits_hd/mj2_c02.jpg",
+      "bytes": 198673,
+      "sha256": "33e12efd63aab353b34f2f4b2af7de57ba0ba24e852fa307805eaea6027a683a"
+    },
+    {
+      "path": "assets/portraits_hd/mj2_c03.jpg",
+      "bytes": 154711,
+      "sha256": "5543f079d17f0800cb04256bb2b68e2bac155b35f8ec9c6c95b7464b4960476b"
+    },
+    {
+      "path": "assets/portraits_hd/mj2_c04.jpg",
+      "bytes": 170709,
+      "sha256": "4466b2fcdab1c47f9f74ede423abcc6082c2d7addfc6c2caeb6bd638a296b8d1"
+    },
+    {
+      "path": "assets/portraits_hd/mj2_c05.jpg",
+      "bytes": 189164,
+      "sha256": "8f97af0bda11c23bee841c1b4ae414563938434ba07eb30fa34a1cebb0741e8d"
+    },
+    {
+      "path": "assets/portraits_hd/mj2_c06.jpg",
+      "bytes": 163976,
+      "sha256": "3b1899b9a7d2b9cbe0dab5eb5785b8a912438218ddbf35def4341a5d72ecb2ea"
+    },
+    {
+      "path": "assets/portraits_hd/mj2_c07.jpg",
+      "bytes": 193123,
+      "sha256": "865cf1f613f0311b4927a60ca52c5189dc503665183996ea7d883239c491cf2e"
+    },
+    {
+      "path": "assets/portraits_hd/mj2_c08.jpg",
+      "bytes": 152974,
+      "sha256": "bd7523dd9f5f85f4cabc49be3113a4cc4007d9126625c1c3e6756788e9adeae1"
+    },
+    {
+      "path": "assets/portraits_hd/mj2_c09.jpg",
+      "bytes": 190258,
+      "sha256": "79d9d50d152af7b2f132ae90cb7042fd83f2146cb1e963c4ff6be29a2b8e4b0c"
+    },
+    {
+      "path": "assets/portraits_hd/mj2_c10.jpg",
+      "bytes": 189369,
+      "sha256": "f18e50a1f3f0060c7292acc2e3b2c01bd45b493925041481d222d589f09863ab"
+    },
+    {
+      "path": "assets/portraits_hd/mj2_c11.jpg",
+      "bytes": 163412,
+      "sha256": "8be85560ecd8035ea55dc5c2e4d673cdbc896c4929483537b7722ae470d40176"
+    },
+    {
+      "path": "assets/portraits_hd/mj2_c12.jpg",
+      "bytes": 206579,
+      "sha256": "eaeda344a12819f12a19837b994c8cf0b819dcc0d8a79b92b8f63651b608251a"
+    },
+    {
+      "path": "assets/portraits_hd/mj2_c13.jpg",
+      "bytes": 220558,
+      "sha256": "cff6cc71e254589f94c1f36c5222f447a7208cb722cb7a770a912b083217a7f5"
+    },
+    {
+      "path": "assets/portraits_hd/mj2_c14.jpg",
+      "bytes": 153979,
+      "sha256": "13ba6040c7f296b9817ff036f21fede51e42f71b0857ecc520f4eefb44707d39"
+    },
+    {
+      "path": "assets/portraits_hd/mj2_c15.jpg",
+      "bytes": 220495,
+      "sha256": "88fef364813a20cb3d710016e3049b91fa3e49ae2e8f568bbb8e6b4f4ff0e77c"
+    },
+    {
+      "path": "assets/portraits_hd/mj2_p01.jpg",
+      "bytes": 187608,
+      "sha256": "051a010a93a3109d07d27b89d18e8f322b6f504c8ea27c58299a9d44f1c971a3"
+    },
+    {
+      "path": "data/characters.json",
+      "bytes": 7355,
+      "sha256": "ccfbc4cc122ae5bc12da5b3634f69731e5677a6d59aadb53e0afc68d78977739"
+    },
+    {
+      "path": "data/cpu_profiles.json",
+      "bytes": 2760,
+      "sha256": "82341ed199be12e06decc12a5f24c72f485727908b675d2fbee61336bc660534"
+    },
+    {
+      "path": "data/organizations.json",
+      "bytes": 1433,
+      "sha256": "3cc83a046886b8c32f9cf3eff5a3de5cbbf8361142ec0b69b6ba616100211bc9"
+    },
+    {
+      "path": "data/stage_tables.json",
+      "bytes": 3844,
+      "sha256": "cead666494729b3e43a56ad319d9ca05d099eb60706afe45df65e8bdb2effa4d"
+    },
+    {
+      "path": "data/theme_patch.json",
+      "bytes": 698,
+      "sha256": "4aa0409c66c174ff4e38e7c8e4bc19da216892a04787da9dd6c68370b9bac366"
+    },
+    {
+      "path": "sources/image_prompts.json",
+      "bytes": 15095,
+      "sha256": "1d7566040640027caebc280bd2e12f6239c1fc561bb11f9790ac6dae7858f4a7"
+    }
+  ]
+}

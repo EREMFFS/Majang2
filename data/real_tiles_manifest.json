@@ -1,0 +1,716 @@
+{
+  "version": 1,
+  "style": "realistic_ivory_green",
+  "tileSize": [
+    128,
+    176
+  ],
+  "hdTileSize": [
+    256,
+    352
+  ],
+  "standardKindCount": 34,
+  "withBackCount": 35,
+  "tiles": {
+    "m1": {
+      "file": "tiles/m1.png",
+      "hd": "tiles_hd/m1.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/man.png",
+      "sourceRect": [
+        0,
+        0,
+        256,
+        352
+      ],
+      "rotated": {
+        "east": "tiles_rotated/m1_east.png",
+        "north": "tiles_rotated/m1_north.png",
+        "west": "tiles_rotated/m1_west.png"
+      }
+    },
+    "m2": {
+      "file": "tiles/m2.png",
+      "hd": "tiles_hd/m2.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/man.png",
+      "sourceRect": [
+        256,
+        0,
+        512,
+        352
+      ],
+      "rotated": {
+        "east": "tiles_rotated/m2_east.png",
+        "north": "tiles_rotated/m2_north.png",
+        "west": "tiles_rotated/m2_west.png"
+      }
+    },
+    "m3": {
+      "file": "tiles/m3.png",
+      "hd": "tiles_hd/m3.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/man.png",
+      "sourceRect": [
+        512,
+        0,
+        768,
+        352
+      ],
+      "rotated": {
+        "east": "tiles_rotated/m3_east.png",
+        "north": "tiles_rotated/m3_north.png",
+        "west": "tiles_rotated/m3_west.png"
+      }
+    },
+    "m4": {
+      "file": "tiles/m4.png",
+      "hd": "tiles_hd/m4.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/man.png",
+      "sourceRect": [
+        0,
+        352,
+        256,
+        704
+      ],
+      "rotated": {
+        "east": "tiles_rotated/m4_east.png",
+        "north": "tiles_rotated/m4_north.png",
+        "west": "tiles_rotated/m4_west.png"
+      }
+    },
+    "m5": {
+      "file": "tiles/m5.png",
+      "hd": "tiles_hd/m5.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/man.png",
+      "sourceRect": [
+        256,
+        352,
+        512,
+        704
+      ],
+      "rotated": {
+        "east": "tiles_rotated/m5_east.png",
+        "north": "tiles_rotated/m5_north.png",
+        "west": "tiles_rotated/m5_west.png"
+      }
+    },
+    "m6": {
+      "file": "tiles/m6.png",
+      "hd": "tiles_hd/m6.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/man.png",
+      "sourceRect": [
+        512,
+        352,
+        768,
+        704
+      ],
+      "rotated": {
+        "east": "tiles_rotated/m6_east.png",
+        "north": "tiles_rotated/m6_north.png",
+        "west": "tiles_rotated/m6_west.png"
+      }
+    },
+    "m7": {
+      "file": "tiles/m7.png",
+      "hd": "tiles_hd/m7.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/man.png",
+      "sourceRect": [
+        0,
+        704,
+        256,
+        1056
+      ],
+      "rotated": {
+        "east": "tiles_rotated/m7_east.png",
+        "north": "tiles_rotated/m7_north.png",
+        "west": "tiles_rotated/m7_west.png"
+      }
+    },
+    "m8": {
+      "file": "tiles/m8.png",
+      "hd": "tiles_hd/m8.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/man.png",
+      "sourceRect": [
+        256,
+        704,
+        512,
+        1056
+      ],
+      "rotated": {
+        "east": "tiles_rotated/m8_east.png",
+        "north": "tiles_rotated/m8_north.png",
+        "west": "tiles_rotated/m8_west.png"
+      }
+    },
+    "m9": {
+      "file": "tiles/m9.png",
+      "hd": "tiles_hd/m9.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/man.png",
+      "sourceRect": [
+        512,
+        704,
+        768,
+        1056
+      ],
+      "rotated": {
+        "east": "tiles_rotated/m9_east.png",
+        "north": "tiles_rotated/m9_north.png",
+        "west": "tiles_rotated/m9_west.png"
+      }
+    },
+    "p1": {
+      "file": "tiles/p1.png",
+      "hd": "tiles_hd/p1.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/pin.png",
+      "sourceRect": [
+        0,
+        0,
+        256,
+        352
+      ],
+      "rotated": {
+        "east": "tiles_rotated/p1_east.png",
+        "north": "tiles_rotated/p1_north.png",
+        "west": "tiles_rotated/p1_west.png"
+      }
+    },
+    "p2": {
+      "file": "tiles/p2.png",
+      "hd": "tiles_hd/p2.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/pin.png",
+      "sourceRect": [
+        256,
+        0,
+        512,
+        352
+      ],
+      "rotated": {
+        "east": "tiles_rotated/p2_east.png",
+        "north": "tiles_rotated/p2_north.png",
+        "west": "tiles_rotated/p2_west.png"
+      }
+    },
+    "p3": {
+      "file": "tiles/p3.png",
+      "hd": "tiles_hd/p3.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/pin.png",
+      "sourceRect": [
+        512,
+        0,
+        768,
+        352
+      ],
+      "rotated": {
+        "east": "tiles_rotated/p3_east.png",
+        "north": "tiles_rotated/p3_north.png",
+        "west": "tiles_rotated/p3_west.png"
+      }
+    },
+    "p4": {
+      "file": "tiles/p4.png",
+      "hd": "tiles_hd/p4.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/pin.png",
+      "sourceRect": [
+        0,
+        352,
+        256,
+        704
+      ],
+      "rotated": {
+        "east": "tiles_rotated/p4_east.png",
+        "north": "tiles_rotated/p4_north.png",
+        "west": "tiles_rotated/p4_west.png"
+      }
+    },
+    "p5": {
+      "file": "tiles/p5.png",
+      "hd": "tiles_hd/p5.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/pin.png",
+      "sourceRect": [
+        256,
+        352,
+        512,
+        704
+      ],
+      "rotated": {
+        "east": "tiles_rotated/p5_east.png",
+        "north": "tiles_rotated/p5_north.png",
+        "west": "tiles_rotated/p5_west.png"
+      }
+    },
+    "p6": {
+      "file": "tiles/p6.png",
+      "hd": "tiles_hd/p6.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/pin.png",
+      "sourceRect": [
+        512,
+        352,
+        768,
+        704
+      ],
+      "rotated": {
+        "east": "tiles_rotated/p6_east.png",
+        "north": "tiles_rotated/p6_north.png",
+        "west": "tiles_rotated/p6_west.png"
+      }
+    },
+    "p7": {
+      "file": "tiles/p7.png",
+      "hd": "tiles_hd/p7.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/pin.png",
+      "sourceRect": [
+        0,
+        704,
+        256,
+        1056
+      ],
+      "rotated": {
+        "east": "tiles_rotated/p7_east.png",
+        "north": "tiles_rotated/p7_north.png",
+        "west": "tiles_rotated/p7_west.png"
+      }
+    },
+    "p8": {
+      "file": "tiles/p8.png",
+      "hd": "tiles_hd/p8.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/pin.png",
+      "sourceRect": [
+        256,
+        704,
+        512,
+        1056
+      ],
+      "rotated": {
+        "east": "tiles_rotated/p8_east.png",
+        "north": "tiles_rotated/p8_north.png",
+        "west": "tiles_rotated/p8_west.png"
+      }
+    },
+    "p9": {
+      "file": "tiles/p9.png",
+      "hd": "tiles_hd/p9.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/pin.png",
+      "sourceRect": [
+        512,
+        704,
+        768,
+        1056
+      ],
+      "rotated": {
+        "east": "tiles_rotated/p9_east.png",
+        "north": "tiles_rotated/p9_north.png",
+        "west": "tiles_rotated/p9_west.png"
+      }
+    },
+    "s1": {
+      "file": "tiles/s1.png",
+      "hd": "tiles_hd/s1.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/sou.png",
+      "sourceRect": [
+        0,
+        0,
+        256,
+        352
+      ],
+      "rotated": {
+        "east": "tiles_rotated/s1_east.png",
+        "north": "tiles_rotated/s1_north.png",
+        "west": "tiles_rotated/s1_west.png"
+      }
+    },
+    "s2": {
+      "file": "tiles/s2.png",
+      "hd": "tiles_hd/s2.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/sou.png",
+      "sourceRect": [
+        256,
+        0,
+        512,
+        352
+      ],
+      "rotated": {
+        "east": "tiles_rotated/s2_east.png",
+        "north": "tiles_rotated/s2_north.png",
+        "west": "tiles_rotated/s2_west.png"
+      }
+    },
+    "s3": {
+      "file": "tiles/s3.png",
+      "hd": "tiles_hd/s3.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/sou.png",
+      "sourceRect": [
+        512,
+        0,
+        768,
+        352
+      ],
+      "rotated": {
+        "east": "tiles_rotated/s3_east.png",
+        "north": "tiles_rotated/s3_north.png",
+        "west": "tiles_rotated/s3_west.png"
+      }
+    },
+    "s4": {
+      "file": "tiles/s4.png",
+      "hd": "tiles_hd/s4.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/sou.png",
+      "sourceRect": [
+        0,
+        352,
+        256,
+        704
+      ],
+      "rotated": {
+        "east": "tiles_rotated/s4_east.png",
+        "north": "tiles_rotated/s4_north.png",
+        "west": "tiles_rotated/s4_west.png"
+      }
+    },
+    "s5": {
+      "file": "tiles/s5.png",
+      "hd": "tiles_hd/s5.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/sou.png",
+      "sourceRect": [
+        256,
+        352,
+        512,
+        704
+      ],
+      "rotated": {
+        "east": "tiles_rotated/s5_east.png",
+        "north": "tiles_rotated/s5_north.png",
+        "west": "tiles_rotated/s5_west.png"
+      }
+    },
+    "s6": {
+      "file": "tiles/s6.png",
+      "hd": "tiles_hd/s6.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/sou.png",
+      "sourceRect": [
+        512,
+        352,
+        768,
+        704
+      ],
+      "rotated": {
+        "east": "tiles_rotated/s6_east.png",
+        "north": "tiles_rotated/s6_north.png",
+        "west": "tiles_rotated/s6_west.png"
+      }
+    },
+    "s7": {
+      "file": "tiles/s7.png",
+      "hd": "tiles_hd/s7.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/sou.png",
+      "sourceRect": [
+        0,
+        704,
+        256,
+        1056
+      ],
+      "rotated": {
+        "east": "tiles_rotated/s7_east.png",
+        "north": "tiles_rotated/s7_north.png",
+        "west": "tiles_rotated/s7_west.png"
+      }
+    },
+    "s8": {
+      "file": "tiles/s8.png",
+      "hd": "tiles_hd/s8.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/sou.png",
+      "sourceRect": [
+        256,
+        704,
+        512,
+        1056
+      ],
+      "rotated": {
+        "east": "tiles_rotated/s8_east.png",
+        "north": "tiles_rotated/s8_north.png",
+        "west": "tiles_rotated/s8_west.png"
+      }
+    },
+    "s9": {
+      "file": "tiles/s9.png",
+      "hd": "tiles_hd/s9.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/sou.png",
+      "sourceRect": [
+        512,
+        704,
+        768,
+        1056
+      ],
+      "rotated": {
+        "east": "tiles_rotated/s9_east.png",
+        "north": "tiles_rotated/s9_north.png",
+        "west": "tiles_rotated/s9_west.png"
+      }
+    },
+    "z1": {
+      "file": "tiles/z1.png",
+      "hd": "tiles_hd/z1.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/honors.png",
+      "sourceRect": [
+        0,
+        0,
+        256,
+        352
+      ],
+      "rotated": {
+        "east": "tiles_rotated/z1_east.png",
+        "north": "tiles_rotated/z1_north.png",
+        "west": "tiles_rotated/z1_west.png"
+      }
+    },
+    "z2": {
+      "file": "tiles/z2.png",
+      "hd": "tiles_hd/z2.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/honors.png",
+      "sourceRect": [
+        256,
+        0,
+        512,
+        352
+      ],
+      "rotated": {
+        "east": "tiles_rotated/z2_east.png",
+        "north": "tiles_rotated/z2_north.png",
+        "west": "tiles_rotated/z2_west.png"
+      }
+    },
+    "z3": {
+      "file": "tiles/z3.png",
+      "hd": "tiles_hd/z3.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/honors.png",
+      "sourceRect": [
+        512,
+        0,
+        768,
+        352
+      ],
+      "rotated": {
+        "east": "tiles_rotated/z3_east.png",
+        "north": "tiles_rotated/z3_north.png",
+        "west": "tiles_rotated/z3_west.png"
+      }
+    },
+    "z4": {
+      "file": "tiles/z4.png",
+      "hd": "tiles_hd/z4.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/honors.png",
+      "sourceRect": [
+        0,
+        352,
+        256,
+        704
+      ],
+      "rotated": {
+        "east": "tiles_rotated/z4_east.png",
+        "north": "tiles_rotated/z4_north.png",
+        "west": "tiles_rotated/z4_west.png"
+      }
+    },
+    "z5": {
+      "file": "tiles/z5.png",
+      "hd": "tiles_hd/z5.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/honors.png",
+      "sourceRect": [
+        256,
+        352,
+        512,
+        704
+      ],
+      "rotated": {
+        "east": "tiles_rotated/z5_east.png",
+        "north": "tiles_rotated/z5_north.png",
+        "west": "tiles_rotated/z5_west.png"
+      }
+    },
+    "z6": {
+      "file": "tiles/z6.png",
+      "hd": "tiles_hd/z6.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/honors.png",
+      "sourceRect": [
+        512,
+        352,
+        768,
+        704
+      ],
+      "rotated": {
+        "east": "tiles_rotated/z6_east.png",
+        "north": "tiles_rotated/z6_north.png",
+        "west": "tiles_rotated/z6_west.png"
+      }
+    },
+    "z7": {
+      "file": "tiles/z7.png",
+      "hd": "tiles_hd/z7.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/honors.png",
+      "sourceRect": [
+        0,
+        704,
+        256,
+        1056
+      ],
+      "rotated": {
+        "east": "tiles_rotated/z7_east.png",
+        "north": "tiles_rotated/z7_north.png",
+        "west": "tiles_rotated/z7_west.png"
+      }
+    },
+    "back": {
+      "file": "tiles/back.png",
+      "hd": "tiles_hd/back.png",
+      "size": [
+        128,
+        176
+      ],
+      "sourceAtlas": "atlases/honors.png",
+      "sourceRect": [
+        256,
+        704,
+        512,
+        1056
+      ],
+      "rotated": {
+        "east": "tiles_rotated/back_east.png",
+        "north": "tiles_rotated/back_north.png",
+        "west": "tiles_rotated/back_west.png"
+      }
+    }
+  }
+}

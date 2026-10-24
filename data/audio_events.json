@@ -1,0 +1,1092 @@
+{
+  "version": 2,
+  "enabled": true,
+  "events": [
+    {
+      "id": "ui_move",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "ui_confirm",
+      "clip": "assets/audio/se/se_button.mp3",
+      "bus": "se"
+    },
+    {
+      "id": "stage_confirm",
+      "clip": "assets/audio/se/se_TAISENAITE_KETTEI.mp3",
+      "bus": "se",
+      "note": "対戦組織（相手）の決定"
+    },
+    {
+      "id": "vs_face_stop",
+      "clip": "assets/audio/se/se_don.wav",
+      "bus": "se"
+    },
+    {
+      "id": "round_open",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "tile_draw",
+      "clip": "assets/audio/se/hai_get.wav",
+      "bus": "se"
+    },
+    {
+      "id": "tile_discard",
+      "clip": "assets/audio/se/hai_sute.wav",
+      "bus": "se"
+    },
+    {
+      "id": "call_chi",
+      "clip": "assets/audio/voice/chee.wav",
+      "bus": "voice"
+    },
+    {
+      "id": "call_pon",
+      "clip": "assets/audio/voice/pon.wav",
+      "bus": "voice"
+    },
+    {
+      "id": "call_kan",
+      "clip": "assets/audio/voice/kan.wav",
+      "bus": "voice"
+    },
+    {
+      "id": "call_riichi",
+      "clip": "assets/audio/voice/reach.wav",
+      "bus": "voice"
+    },
+    {
+      "id": "call_ron",
+      "clip": "assets/audio/voice/ron.wav",
+      "bus": "voice"
+    },
+    {
+      "id": "call_tsumo",
+      "clip": "assets/audio/voice/tsumo.wav",
+      "bus": "voice"
+    },
+    {
+      "id": "yakuman_ready",
+      "clip": "assets/audio/se/se_don.wav",
+      "bus": "se"
+    },
+    {
+      "id": "yakuman_win",
+      "clip": "assets/audio/se/se_don.wav",
+      "bus": "se"
+    },
+    {
+      "id": "jackpot_open",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "jackpot_halo",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "jackpot_million",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "jackpot_confirm",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "round_end",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "role_impact",
+      "clip": "assets/audio/se/se_don.wav",
+      "bus": "se"
+    },
+    {
+      "id": "evidence_light",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "minor_summary",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "score_count",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "score_confirm",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "match_end",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "rank_reveal",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "victory",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "save_complete",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "chance",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "yaku_bundle_4",
+      "clip": "assets/audio/voice/an/bundle_4.mp3",
+      "reading": "スーツーアン",
+      "text": "四子安",
+      "bus": "voice"
+    },
+    {
+      "id": "yaku_bundle_8",
+      "clip": "assets/audio/voice/an/bundle_8.mp3",
+      "reading": "パーツーアン",
+      "text": "八子安",
+      "bus": "voice"
+    },
+    {
+      "id": "yaku_bundle_12",
+      "clip": "assets/audio/voice/an/bundle_12.mp3",
+      "reading": "シーアルツーアン",
+      "text": "十二子安",
+      "bus": "voice"
+    },
+    {
+      "id": "yaku_bundle_16",
+      "clip": "assets/audio/voice/an/bundle_16.mp3",
+      "reading": "シーリウツーアン",
+      "text": "十六子安",
+      "bus": "voice"
+    },
+    {
+      "id": "tile_swap",
+      "clip": "assets/audio/se/hai_get.wav",
+      "bus": "se"
+    },
+    {
+      "id": "tile_meld",
+      "clip": "assets/audio/se/hai_sute.wav",
+      "bus": "se"
+    },
+    {
+      "id": "tile_win",
+      "clip": "assets/audio/se/hai_agari.wav",
+      "bus": "se"
+    },
+    {
+      "id": "round_call_E1",
+      "clip": "assets/audio/voice/east_01.wav",
+      "bus": "voice"
+    },
+    {
+      "id": "round_call_E2",
+      "clip": "assets/audio/voice/east_02.wav",
+      "bus": "voice"
+    },
+    {
+      "id": "round_call_E3",
+      "clip": "assets/audio/voice/east_03.wav",
+      "bus": "voice"
+    },
+    {
+      "id": "round_call_E4",
+      "clip": "assets/audio/voice/east_04.wav",
+      "bus": "voice"
+    },
+    {
+      "id": "round_call_S1",
+      "clip": "assets/audio/voice/nan_01.wav",
+      "bus": "voice"
+    },
+    {
+      "id": "round_call_S2",
+      "clip": "assets/audio/voice/nan_02.wav",
+      "bus": "voice"
+    },
+    {
+      "id": "round_call_S3",
+      "clip": "assets/audio/voice/nan_03.wav",
+      "bus": "voice"
+    },
+    {
+      "id": "round_call_S4",
+      "clip": "assets/audio/voice/nan_04.wav",
+      "bus": "voice"
+    },
+    {
+      "id": "round_call_last",
+      "clip": "assets/audio/voice/o_rasu.wav",
+      "bus": "voice"
+    },
+    {
+      "id": "draw_tenpai",
+      "clip": "assets/audio/voice/tempai.wav",
+      "bus": "voice"
+    },
+    {
+      "id": "draw_noten",
+      "clip": "assets/audio/voice/noten.wav",
+      "bus": "voice"
+    },
+    {
+      "id": "SE_BILL_FLIP",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "SE_BILL_LAND",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "SE_BILL_COUNT",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "SE_COIN",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "SE_BUNDLE_DROP",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "SE_CASE_OPEN",
+      "clip": null,
+      "bus": "se"
+    },
+    {
+      "id": "title_select",
+      "clip": "assets/audio/se/se_title_start.wav",
+      "bus": "se"
+    },
+    {
+      "id": "strike_thunder",
+      "clip": "assets/audio/se/se_thunder.wav",
+      "bus": "se"
+    },
+    {
+      "id": "ui_button",
+      "clip": "assets/audio/se/se_button.mp3",
+      "bus": "se",
+      "note": "「次へ」などを押した時"
+    },
+    {
+      "id": "match_start",
+      "clip": "assets/audio/se/SE_TAIKYOKUKAISI.mp3",
+      "bus": "se",
+      "note": "「対局開始」の文字"
+    },
+    {
+      "id": "signal_call",
+      "clip": "assets/audio/se/se_Signal.mp3",
+      "bus": "se",
+      "note": "チー・ポン・カン・リーチができる時"
+    },
+    {
+      "id": "signal_agari",
+      "clip": "assets/audio/se/se_Signal_AGARI.mp3",
+      "bus": "se",
+      "note": "ロン・ツモができる時"
+    },
+    {
+      "id": "result_yakuman",
+      "clip": "assets/audio/se/se_AGARI_YAKUMAN.mp3",
+      "bus": "se",
+      "note": "個人リザルトの和了ランク：役満・数え役満"
+    },
+    {
+      "id": "result_big",
+      "clip": "assets/audio/se/se_AGARI_BAIMAN_3BAIMAN_RESULT.mp3",
+      "bus": "se",
+      "note": "個人リザルトの和了ランク：倍満・三倍満"
+    },
+    {
+      "id": "result_other",
+      "clip": "assets/audio/se/se_AGARI_OTHER.mp3",
+      "bus": "se",
+      "note": "個人リザルトの和了ランク：それ以外のロン・ツモ"
+    },
+    {
+      "id": "SE_YEN_GET",
+      "clip": "assets/audio/se/SE_YEN_GET.mp3",
+      "bus": "se",
+      "note": "お金の受け渡し１件ごと"
+    },
+    {
+      "id": "an_dora",
+      "clip": "assets/audio/voice/an/dora.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_gold_dora",
+      "clip": "assets/audio/voice/an/gold_dora.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_org_mj2_org01",
+      "clip": "assets/audio/voice/an/org_mj2_org01.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_org_mj2_org02",
+      "clip": "assets/audio/voice/an/org_mj2_org02.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_org_mj2_org03",
+      "clip": "assets/audio/voice/an/org_mj2_org03.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_org_mj2_org04",
+      "clip": "assets/audio/voice/an/org_mj2_org04.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_org_mj2_org05",
+      "clip": "assets/audio/voice/an/org_mj2_org05.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_rank_baiman",
+      "clip": "assets/audio/voice/an/rank_baiman.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_rank_haneman",
+      "clip": "assets/audio/voice/an/rank_haneman.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_rank_mangan",
+      "clip": "assets/audio/voice/an/rank_mangan.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_rank_sanbaiman",
+      "clip": "assets/audio/voice/an/rank_sanbaiman.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_rank_yakuman",
+      "clip": "assets/audio/voice/an/rank_yakuman.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_031",
+      "clip": "assets/audio/voice/an/role_idea_031.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_032",
+      "clip": "assets/audio/voice/an/role_idea_032.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_033",
+      "clip": "assets/audio/voice/an/role_idea_033.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_034",
+      "clip": "assets/audio/voice/an/role_idea_034.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_035",
+      "clip": "assets/audio/voice/an/role_idea_035.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_036",
+      "clip": "assets/audio/voice/an/role_idea_036.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_037",
+      "clip": "assets/audio/voice/an/role_idea_037.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_038",
+      "clip": "assets/audio/voice/an/role_idea_038.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_039",
+      "clip": "assets/audio/voice/an/role_idea_039.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_040",
+      "clip": "assets/audio/voice/an/role_idea_040.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_041",
+      "clip": "assets/audio/voice/an/role_idea_041.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_042",
+      "clip": "assets/audio/voice/an/role_idea_042.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_043",
+      "clip": "assets/audio/voice/an/role_idea_043.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_044",
+      "clip": "assets/audio/voice/an/role_idea_044.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_045",
+      "clip": "assets/audio/voice/an/role_idea_045.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_046",
+      "clip": "assets/audio/voice/an/role_idea_046.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_047",
+      "clip": "assets/audio/voice/an/role_idea_047.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_048",
+      "clip": "assets/audio/voice/an/role_idea_048.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_049",
+      "clip": "assets/audio/voice/an/role_idea_049.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_idea_050",
+      "clip": "assets/audio/voice/an/role_idea_050.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_chankan",
+      "clip": "assets/audio/voice/an/role_std_chankan.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_chanta",
+      "clip": "assets/audio/voice/an/role_std_chanta.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_chiihou",
+      "clip": "assets/audio/voice/an/role_std_chiihou.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_chiitoitsu",
+      "clip": "assets/audio/voice/an/role_std_chiitoitsu.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_chinitsu",
+      "clip": "assets/audio/voice/an/role_std_chinitsu.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_chinroutou",
+      "clip": "assets/audio/voice/an/role_std_chinroutou.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_chun",
+      "clip": "assets/audio/voice/an/role_std_chun.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_chuuren",
+      "clip": "assets/audio/voice/an/role_std_chuuren.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_daisangen",
+      "clip": "assets/audio/voice/an/role_std_daisangen.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_daisuushii",
+      "clip": "assets/audio/voice/an/role_std_daisuushii.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_double_riichi",
+      "clip": "assets/audio/voice/an/role_std_double_riichi.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_haitei",
+      "clip": "assets/audio/voice/an/role_std_haitei.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_haku",
+      "clip": "assets/audio/voice/an/role_std_haku.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_hatsu",
+      "clip": "assets/audio/voice/an/role_std_hatsu.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_honitsu",
+      "clip": "assets/audio/voice/an/role_std_honitsu.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_honroutou",
+      "clip": "assets/audio/voice/an/role_std_honroutou.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_houtei",
+      "clip": "assets/audio/voice/an/role_std_houtei.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_iipeikou",
+      "clip": "assets/audio/voice/an/role_std_iipeikou.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_ippatsu",
+      "clip": "assets/audio/voice/an/role_std_ippatsu.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_ittsuu",
+      "clip": "assets/audio/voice/an/role_std_ittsuu.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_junchan",
+      "clip": "assets/audio/voice/an/role_std_junchan.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_kokushi",
+      "clip": "assets/audio/voice/an/role_std_kokushi.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_menzen_tsumo",
+      "clip": "assets/audio/voice/an/role_std_menzen_tsumo.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_pinfu",
+      "clip": "assets/audio/voice/an/role_std_pinfu.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_rinshan",
+      "clip": "assets/audio/voice/an/role_std_rinshan.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_round_wind",
+      "clip": "assets/audio/voice/an/role_std_round_wind.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_ryanpeikou",
+      "clip": "assets/audio/voice/an/role_std_ryanpeikou.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_ryuuiisou",
+      "clip": "assets/audio/voice/an/role_std_ryuuiisou.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_sanankou",
+      "clip": "assets/audio/voice/an/role_std_sanankou.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_sankantsu",
+      "clip": "assets/audio/voice/an/role_std_sankantsu.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_sanshoku_doujun",
+      "clip": "assets/audio/voice/an/role_std_sanshoku_doujun.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_sanshoku_doukou",
+      "clip": "assets/audio/voice/an/role_std_sanshoku_doukou.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_seat_wind",
+      "clip": "assets/audio/voice/an/role_std_seat_wind.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_shousangen",
+      "clip": "assets/audio/voice/an/role_std_shousangen.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_shousuushii",
+      "clip": "assets/audio/voice/an/role_std_shousuushii.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_suuankou",
+      "clip": "assets/audio/voice/an/role_std_suuankou.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_suukantsu",
+      "clip": "assets/audio/voice/an/role_std_suukantsu.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_tanyao",
+      "clip": "assets/audio/voice/an/role_std_tanyao.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_tenhou",
+      "clip": "assets/audio/voice/an/role_std_tenhou.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_toitoi",
+      "clip": "assets/audio/voice/an/role_std_toitoi.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_std_tsuuiisou",
+      "clip": "assets/audio/voice/an/role_std_tsuuiisou.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_tiny_pair5",
+      "clip": "assets/audio/voice/an/role_tiny_pair5.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_sp_3745",
+      "clip": "assets/audio/voice/an/role_sp_3745.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_sp_777",
+      "clip": "assets/audio/voice/an/role_sp_777.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_sp_aho",
+      "clip": "assets/audio/voice/an/role_sp_aho.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_sp_even",
+      "clip": "assets/audio/voice/an/role_sp_even.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_sp_furikomi_master",
+      "clip": "assets/audio/voice/an/role_sp_furikomi_master.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_sp_jackpot",
+      "clip": "assets/audio/voice/an/role_sp_jackpot.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_sp_monopoly",
+      "clip": "assets/audio/voice/an/role_sp_monopoly.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_sp_nakanishi",
+      "clip": "assets/audio/voice/an/role_sp_nakanishi.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_sp_naki3",
+      "clip": "assets/audio/voice/an/role_sp_naki3.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_sp_naki_joe",
+      "clip": "assets/audio/voice/an/role_sp_naki_joe.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_sp_namusan",
+      "clip": "assets/audio/voice/an/role_sp_namusan.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_sp_nanboku",
+      "clip": "assets/audio/voice/an/role_sp_nanboku.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_sp_odd",
+      "clip": "assets/audio/voice/an/role_sp_odd.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_sp_suupontsu",
+      "clip": "assets/audio/voice/an/role_sp_suupontsu.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_role_sp_tozai",
+      "clip": "assets/audio/voice/an/role_sp_tozai.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_start_match",
+      "clip": "assets/audio/voice/an/start_match.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_start_round",
+      "clip": "assets/audio/voice/an/start_round.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_title_crown",
+      "clip": "assets/audio/voice/an/title_crown.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_title_majority",
+      "clip": "assets/audio/voice/an/title_majority.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_title_minor",
+      "clip": "assets/audio/voice/an/title_minor.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "an_title_naki",
+      "clip": "assets/audio/voice/an/title_naki.mp3",
+      "bus": "voice"
+    },
+    {
+      "id": "game_over",
+      "clip": "assets/audio/se/se_gameover.mp3",
+      "bus": "se",
+      "note": "破産 GAME OVER"
+    },
+    {
+      "id": "an_role_std_riichi",
+      "clip": "assets/audio/voice/an/role_std_riichi.mp3",
+      "bus": "voice",
+      "note": "立直（女性ナレーター「ハイテイリーチ」の「リーチ」部分を切り出し）"
+    },
+    {
+      "id": "op_vo_1",
+      "clip": "assets/audio/voice/op/op_01.mp3",
+      "bus": "voice",
+      "note": "オープニングのナレーション1（VO_OP_01）"
+    },
+    {
+      "id": "op_vo_2",
+      "clip": "assets/audio/voice/op/op_02.mp3",
+      "bus": "voice",
+      "note": "オープニングのナレーション2（VO_OP_02）"
+    },
+    {
+      "id": "op_vo_3",
+      "clip": "assets/audio/voice/op/op_03.mp3",
+      "bus": "voice",
+      "note": "オープニングのナレーション3（VO_OP_03）"
+    },
+    {
+      "id": "op_vo_4",
+      "clip": "assets/audio/voice/op/op_04.mp3",
+      "bus": "voice",
+      "note": "オープニングのナレーション4（VO_OP_04）"
+    }
+  ],
+  "defaultVolume": {
+    "bgm": 0.55,
+    "voice": 0.9,
+    "se": 0.8
+  },
+  "bgm": [
+    {
+      "id": "bgm_title",
+      "scene": "menu",
+      "files": [
+        "assets/audio/bgm/bgm05.m4a",
+        "assets/audio/bgm/bgm05.ogg"
+      ],
+      "loopStartSec": 1.340952380952381,
+      "loopEndSec": 130.76897959183674,
+      "source": "MAHJANG_BGM05.wav smpl loop 59136-end",
+      "fingerprint": {
+        "atSec": 20.0,
+        "sampleRate": 44100,
+        "n": 4096,
+        "pcm16": "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"
+      }
+    },
+    {
+      "id": "bgm_east_s5",
+      "rounds": "E",
+      "stageIds": [
+        "mj2_org05"
+      ],
+      "files": [
+        "assets/audio/bgm/bgm06.m4a",
+        "assets/audio/bgm/bgm06.ogg"
+      ],
+      "loopStartSec": 0.7183673469387755,
+      "loopEndSec": 162.71673469387756,
+      "source": "MAHJANG_BGM06.wav smpl loop 31680-end（5ステージ目・邪見山連盟の東場）",
+      "fingerprint": {
+        "atSec": 20.0,
+        "sampleRate": 44100,
+        "n": 4096,
+        "pcm16": "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"
+      }
+    },
+    {
+      "id": "bgm_east_odd",
+      "rounds": "E",
+      "stages": "odd",
+      "files": [
+        "assets/audio/bgm/bgm03.m4a",
+        "assets/audio/bgm/bgm03.ogg"
+      ],
+      "loopStartSec": 3.3959183673469386,
+      "loopEndSec": 115.41768707482993,
+      "source": "MAHJANG_BGM03.wav smpl loop 149760-end（奇数ステージの東場）",
+      "fingerprint": {
+        "atSec": 20.0,
+        "sampleRate": 44100,
+        "n": 4096,
+        "pcm16": "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"
+      }
+    },
+    {
+      "id": "bgm_east_even",
+      "rounds": "E",
+      "stages": "even",
+      "files": [
+        "assets/audio/bgm/bgm04.m4a",
+        "assets/audio/bgm/bgm04.ogg"
+      ],
+      "loopStartSec": 6.899229024943311,
+      "loopEndSec": 135.89768707482995,
+      "source": "MAHJANG_BGM04.wav smpl loop 304256-end（偶数ステージの東場）",
+      "fingerprint": {
+        "atSec": 20.0,
+        "sampleRate": 44100,
+        "n": 4096,
+        "pcm16": "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"
+      }
+    },
+    {
+      "id": "bgm_south",
+      "rounds": "S",
+      "files": [
+        "assets/audio/bgm/bgm02.m4a",
+        "assets/audio/bgm/bgm02.ogg"
+      ],
+      "loopStartSec": 4.214421768707483,
+      "loopEndSec": 152.20680272108842,
+      "source": "MAHJANG_BGM02.wav smpl loop 185856-6712319 @44100Hz",
+      "fingerprint": {
+        "atSec": 20.0,
+        "sampleRate": 44100,
+        "n": 4096,
+        "pcm16": "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"
+      }
+    }
+  ],
+  "roundCallLastMode": "after",
+  "notes": [
+    "bus: bgm/voice/se の音量は設定画面で個別に調整。",
+    "clip が null・ファイル欠落でも進行は止まらない（再生を待たない）。",
+    "tile_draw は自分のツモと嶺上牌、tile_discard は全員の打牌、tile_meld は鳴き・槓で晒した時、tile_win は和了の手牌公開。",
+    "SE_BILL_FLIP/LAND/COUNT・SE_COIN・SE_BUNDLE_DROP・SE_CASE_OPEN: 現金演出用（clip 未設定のうちは無音で動作。同じ音は35ms以内の重複を間引く）。",
+    "BGM: タイトル〜組織選択（戦績・図鑑・設定も）=bgm05、東場は奇数ステージ（紅蓮組・愛知爆裂山・邪見山連盟）=bgm03／偶数ステージ（相模連合・難波大場組）=bgm04、南場=bgm02。bgm01は使わなくなったので削除。",
+    "SE: title_select=タイトルで選んだ時（ミカと同じ se_title_start）、strike_thunder=ロン・ツモの稲妻、role_impact/yakuman_ready/yakuman_win=役などの「ドン！」表示（SE_DON・汎用）。",
+    "charVoices: キャラごとの掛け声（ポン・チー・カン・リーチ・ロン・ツモ）。ユーザー提供の1本の波形を6つに切り分け（docs/voice_segments.json に区間）。callVoiceMode: character=その人の声（無ければ実況）／announcer=実況の声／both=両方。"
+  ],
+  "charVoices": {
+    "mj2_c01": {
+      "chi": "assets/audio/chara/mj2_c01_chi.wav",
+      "kan": "assets/audio/chara/mj2_c01_kan.wav",
+      "pon": "assets/audio/chara/mj2_c01_pon.wav",
+      "riichi": "assets/audio/chara/mj2_c01_riichi.wav",
+      "ron": "assets/audio/chara/mj2_c01_ron.wav",
+      "tsumo": "assets/audio/chara/mj2_c01_tsumo.wav"
+    },
+    "mj2_c02": {
+      "chi": "assets/audio/chara/mj2_c02_chi.wav",
+      "kan": "assets/audio/chara/mj2_c02_kan.wav",
+      "pon": "assets/audio/chara/mj2_c02_pon.wav",
+      "riichi": "assets/audio/chara/mj2_c02_riichi.wav",
+      "ron": "assets/audio/chara/mj2_c02_ron.wav",
+      "tsumo": "assets/audio/chara/mj2_c02_tsumo.wav"
+    },
+    "mj2_c03": {
+      "chi": "assets/audio/chara/mj2_c03_chi.wav",
+      "kan": "assets/audio/chara/mj2_c03_kan.wav",
+      "pon": "assets/audio/chara/mj2_c03_pon.wav",
+      "riichi": "assets/audio/chara/mj2_c03_riichi.wav",
+      "ron": "assets/audio/chara/mj2_c03_ron.wav",
+      "tsumo": "assets/audio/chara/mj2_c03_tsumo.wav"
+    },
+    "mj2_c04": {
+      "chi": "assets/audio/chara/mj2_c04_chi.wav",
+      "kan": "assets/audio/chara/mj2_c04_kan.wav",
+      "pon": "assets/audio/chara/mj2_c04_pon.wav",
+      "riichi": "assets/audio/chara/mj2_c04_riichi.wav",
+      "ron": "assets/audio/chara/mj2_c04_ron.wav",
+      "tsumo": "assets/audio/chara/mj2_c04_tsumo.wav"
+    },
+    "mj2_c05": {
+      "chi": "assets/audio/chara/mj2_c05_chi.wav",
+      "kan": "assets/audio/chara/mj2_c05_kan.wav",
+      "pon": "assets/audio/chara/mj2_c05_pon.wav",
+      "riichi": "assets/audio/chara/mj2_c05_riichi.wav",
+      "ron": "assets/audio/chara/mj2_c05_ron.wav",
+      "tsumo": "assets/audio/chara/mj2_c05_tsumo.wav"
+    },
+    "mj2_c06": {
+      "chi": "assets/audio/chara/mj2_c06_chi.wav",
+      "kan": "assets/audio/chara/mj2_c06_kan.wav",
+      "pon": "assets/audio/chara/mj2_c06_pon.wav",
+      "riichi": "assets/audio/chara/mj2_c06_riichi.wav",
+      "ron": "assets/audio/chara/mj2_c06_ron.wav",
+      "tsumo": "assets/audio/chara/mj2_c06_tsumo.wav"
+    },
+    "mj2_c07": {
+      "chi": "assets/audio/chara/mj2_c07_chi.wav",
+      "kan": "assets/audio/chara/mj2_c07_kan.wav",
+      "pon": "assets/audio/chara/mj2_c07_pon.wav",
+      "riichi": "assets/audio/chara/mj2_c07_riichi.wav",
+      "ron": "assets/audio/chara/mj2_c07_ron.wav",
+      "tsumo": "assets/audio/chara/mj2_c07_tsumo.wav"
+    },
+    "mj2_c08": {
+      "chi": "assets/audio/chara/mj2_c08_chi.wav",
+      "kan": "assets/audio/chara/mj2_c08_kan.wav",
+      "pon": "assets/audio/chara/mj2_c08_pon.wav",
+      "riichi": "assets/audio/chara/mj2_c08_riichi.wav",
+      "ron": "assets/audio/chara/mj2_c08_ron.wav",
+      "tsumo": "assets/audio/chara/mj2_c08_tsumo.wav"
+    },
+    "mj2_c09": {
+      "chi": "assets/audio/chara/mj2_c09_chi.wav",
+      "kan": "assets/audio/chara/mj2_c09_kan.wav",
+      "pon": "assets/audio/chara/mj2_c09_pon.wav",
+      "riichi": "assets/audio/chara/mj2_c09_riichi.wav",
+      "ron": "assets/audio/chara/mj2_c09_ron.wav",
+      "tsumo": "assets/audio/chara/mj2_c09_tsumo.wav"
+    },
+    "mj2_c10": {
+      "chi": "assets/audio/chara/mj2_c10_chi.wav",
+      "kan": "assets/audio/chara/mj2_c10_kan.wav",
+      "pon": "assets/audio/chara/mj2_c10_pon.wav",
+      "riichi": "assets/audio/chara/mj2_c10_riichi.wav",
+      "ron": "assets/audio/chara/mj2_c10_ron.wav",
+      "tsumo": "assets/audio/chara/mj2_c10_tsumo.wav"
+    },
+    "mj2_c11": {
+      "chi": "assets/audio/chara/mj2_c11_chi.wav",
+      "kan": "assets/audio/chara/mj2_c11_kan.wav",
+      "pon": "assets/audio/chara/mj2_c11_pon.wav",
+      "riichi": "assets/audio/chara/mj2_c11_riichi.wav",
+      "ron": "assets/audio/chara/mj2_c11_ron.wav",
+      "tsumo": "assets/audio/chara/mj2_c11_tsumo.wav"
+    },
+    "mj2_c12": {
+      "chi": "assets/audio/chara/mj2_c12_chi.wav",
+      "kan": "assets/audio/chara/mj2_c12_kan.wav",
+      "pon": "assets/audio/chara/mj2_c12_pon.wav",
+      "riichi": "assets/audio/chara/mj2_c12_riichi.wav",
+      "ron": "assets/audio/chara/mj2_c12_ron.wav",
+      "tsumo": "assets/audio/chara/mj2_c12_tsumo.wav"
+    },
+    "mj2_c13": {
+      "chi": "assets/audio/chara/mj2_c13_chi.wav",
+      "kan": "assets/audio/chara/mj2_c13_kan.wav",
+      "pon": "assets/audio/chara/mj2_c13_pon.wav",
+      "riichi": "assets/audio/chara/mj2_c13_riichi.wav",
+      "ron": "assets/audio/chara/mj2_c13_ron.wav",
+      "tsumo": "assets/audio/chara/mj2_c13_tsumo.wav"
+    },
+    "mj2_c14": {
+      "chi": "assets/audio/chara/mj2_c14_chi.wav",
+      "kan": "assets/audio/chara/mj2_c14_kan.wav",
+      "pon": "assets/audio/chara/mj2_c14_pon.wav",
+      "riichi": "assets/audio/chara/mj2_c14_riichi.wav",
+      "ron": "assets/audio/chara/mj2_c14_ron.wav",
+      "tsumo": "assets/audio/chara/mj2_c14_tsumo.wav"
+    },
+    "mj2_c15": {
+      "chi": "assets/audio/chara/mj2_c15_chi.wav",
+      "kan": "assets/audio/chara/mj2_c15_kan.wav",
+      "pon": "assets/audio/chara/mj2_c15_pon.wav",
+      "riichi": "assets/audio/chara/mj2_c15_riichi.wav",
+      "ron": "assets/audio/chara/mj2_c15_ron.wav",
+      "tsumo": "assets/audio/chara/mj2_c15_tsumo.wav"
+    },
+    "mj2_p01": {
+      "chi": "assets/audio/chara/mj2_p01_chi.wav",
+      "kan": "assets/audio/chara/mj2_p01_kan.wav",
+      "pon": "assets/audio/chara/mj2_p01_pon.wav",
+      "riichi": "assets/audio/chara/mj2_p01_riichi.wav",
+      "ron": "assets/audio/chara/mj2_p01_ron.wav",
+      "tsumo": "assets/audio/chara/mj2_p01_tsumo.wav"
+    }
+  },
+  "callVoiceMode": "character"
+}

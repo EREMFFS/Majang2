@@ -1,0 +1,41 @@
+{
+  "patchId": "jackpot_gold_minor_bundle_v1",
+  "applyFrom": "new_match",
+  "gameConfigMerge": {
+    "awardMinorOnWin": true,
+    "awardMinorOnNonWin": true,
+    "minorDoesNotEnableWin": false,
+    "minorScoring": {
+      "mode": "bundle_han",
+      "groupSize": 4,
+      "maxHan": 4,
+      "individualPointsEnabled": false,
+      "countStage": "after_exclusive_group_resolution",
+      "dedupe": "roleId_per_player_per_round",
+      "carryRemainder": false,
+      "countsAsWinningYaku": true,
+      "keepResultList": true,
+      "keepRoleBook": true,
+      "keepMinorKingCount": true,
+      "syntheticRoleId": "system_minor_bundle"
+    },
+    "jackpotTileAppearance": {
+      "mode": "gold_asset",
+      "targetSource": "jackpotTargets",
+      "applyToTargetPanel": true,
+      "applyToOwnHand": true,
+      "applyToOwnDraw": true,
+      "revealOpponentHiddenTiles": false,
+      "manifest": "assets/jackpot/gold_manifest.json"
+    }
+  },
+  "roleDefinitionMigration": {
+    "whereAny": [{"class": "minor"}, {"displayCategory": "小役"}, {"displayCategory": "子役"}],
+    "set": {"class": "minor", "value": 0, "unit": "count", "individualPointsEnabled": false},
+    "legacyFixedMinorRoleIds": ["sp_furikomi"],
+    "preserve": ["id", "name", "conditionId", "condition", "params", "scope", "exclusiveGroup", "exclusivePriority", "oncePerPlayerPerRound", "unlockOnAward"]
+  },
+  "thresholds": [{"minCount": 0, "han": 0}, {"minCount": 4, "han": 1}, {"minCount": 8, "han": 2}, {"minCount": 12, "han": 3}, {"minCount": 16, "han": 4}],
+  "resultFields": ["minorCount", "minorBundleHan", "scoringPolicyVersion"],
+  "scoringPolicyVersion": "minor_bundle_v1"
+}

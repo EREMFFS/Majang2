@@ -1,0 +1,563 @@
+{
+  "version": 1,
+  "style": "jackpot_polished_gold",
+  "kinds": 34,
+  "normalSize": [
+    128,
+    176
+  ],
+  "hdSize": [
+    256,
+    352
+  ],
+  "masterSize": [
+    512,
+    704
+  ],
+  "tiles": {
+    "m1": {
+      "file": "assets/jackpot/tiles/m1.png",
+      "hd": "assets/jackpot/tiles_hd/m1.png",
+      "master": "assets/jackpot/tiles_master/m1.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/m1_east.png",
+        "north": "assets/jackpot/tiles_rotated/m1_north.png",
+        "west": "assets/jackpot/tiles_rotated/m1_west.png"
+      },
+      "atlasRect": [
+        0,
+        0,
+        128,
+        176
+      ]
+    },
+    "m2": {
+      "file": "assets/jackpot/tiles/m2.png",
+      "hd": "assets/jackpot/tiles_hd/m2.png",
+      "master": "assets/jackpot/tiles_master/m2.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/m2_east.png",
+        "north": "assets/jackpot/tiles_rotated/m2_north.png",
+        "west": "assets/jackpot/tiles_rotated/m2_west.png"
+      },
+      "atlasRect": [
+        128,
+        0,
+        128,
+        176
+      ]
+    },
+    "m3": {
+      "file": "assets/jackpot/tiles/m3.png",
+      "hd": "assets/jackpot/tiles_hd/m3.png",
+      "master": "assets/jackpot/tiles_master/m3.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/m3_east.png",
+        "north": "assets/jackpot/tiles_rotated/m3_north.png",
+        "west": "assets/jackpot/tiles_rotated/m3_west.png"
+      },
+      "atlasRect": [
+        256,
+        0,
+        128,
+        176
+      ]
+    },
+    "m4": {
+      "file": "assets/jackpot/tiles/m4.png",
+      "hd": "assets/jackpot/tiles_hd/m4.png",
+      "master": "assets/jackpot/tiles_master/m4.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/m4_east.png",
+        "north": "assets/jackpot/tiles_rotated/m4_north.png",
+        "west": "assets/jackpot/tiles_rotated/m4_west.png"
+      },
+      "atlasRect": [
+        384,
+        0,
+        128,
+        176
+      ]
+    },
+    "m5": {
+      "file": "assets/jackpot/tiles/m5.png",
+      "hd": "assets/jackpot/tiles_hd/m5.png",
+      "master": "assets/jackpot/tiles_master/m5.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/m5_east.png",
+        "north": "assets/jackpot/tiles_rotated/m5_north.png",
+        "west": "assets/jackpot/tiles_rotated/m5_west.png"
+      },
+      "atlasRect": [
+        512,
+        0,
+        128,
+        176
+      ]
+    },
+    "m6": {
+      "file": "assets/jackpot/tiles/m6.png",
+      "hd": "assets/jackpot/tiles_hd/m6.png",
+      "master": "assets/jackpot/tiles_master/m6.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/m6_east.png",
+        "north": "assets/jackpot/tiles_rotated/m6_north.png",
+        "west": "assets/jackpot/tiles_rotated/m6_west.png"
+      },
+      "atlasRect": [
+        640,
+        0,
+        128,
+        176
+      ]
+    },
+    "m7": {
+      "file": "assets/jackpot/tiles/m7.png",
+      "hd": "assets/jackpot/tiles_hd/m7.png",
+      "master": "assets/jackpot/tiles_master/m7.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/m7_east.png",
+        "north": "assets/jackpot/tiles_rotated/m7_north.png",
+        "west": "assets/jackpot/tiles_rotated/m7_west.png"
+      },
+      "atlasRect": [
+        768,
+        0,
+        128,
+        176
+      ]
+    },
+    "m8": {
+      "file": "assets/jackpot/tiles/m8.png",
+      "hd": "assets/jackpot/tiles_hd/m8.png",
+      "master": "assets/jackpot/tiles_master/m8.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/m8_east.png",
+        "north": "assets/jackpot/tiles_rotated/m8_north.png",
+        "west": "assets/jackpot/tiles_rotated/m8_west.png"
+      },
+      "atlasRect": [
+        896,
+        0,
+        128,
+        176
+      ]
+    },
+    "m9": {
+      "file": "assets/jackpot/tiles/m9.png",
+      "hd": "assets/jackpot/tiles_hd/m9.png",
+      "master": "assets/jackpot/tiles_master/m9.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/m9_east.png",
+        "north": "assets/jackpot/tiles_rotated/m9_north.png",
+        "west": "assets/jackpot/tiles_rotated/m9_west.png"
+      },
+      "atlasRect": [
+        1024,
+        0,
+        128,
+        176
+      ]
+    },
+    "p1": {
+      "file": "assets/jackpot/tiles/p1.png",
+      "hd": "assets/jackpot/tiles_hd/p1.png",
+      "master": "assets/jackpot/tiles_master/p1.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/p1_east.png",
+        "north": "assets/jackpot/tiles_rotated/p1_north.png",
+        "west": "assets/jackpot/tiles_rotated/p1_west.png"
+      },
+      "atlasRect": [
+        1152,
+        0,
+        128,
+        176
+      ]
+    },
+    "p2": {
+      "file": "assets/jackpot/tiles/p2.png",
+      "hd": "assets/jackpot/tiles_hd/p2.png",
+      "master": "assets/jackpot/tiles_master/p2.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/p2_east.png",
+        "north": "assets/jackpot/tiles_rotated/p2_north.png",
+        "west": "assets/jackpot/tiles_rotated/p2_west.png"
+      },
+      "atlasRect": [
+        0,
+        176,
+        128,
+        176
+      ]
+    },
+    "p3": {
+      "file": "assets/jackpot/tiles/p3.png",
+      "hd": "assets/jackpot/tiles_hd/p3.png",
+      "master": "assets/jackpot/tiles_master/p3.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/p3_east.png",
+        "north": "assets/jackpot/tiles_rotated/p3_north.png",
+        "west": "assets/jackpot/tiles_rotated/p3_west.png"
+      },
+      "atlasRect": [
+        128,
+        176,
+        128,
+        176
+      ]
+    },
+    "p4": {
+      "file": "assets/jackpot/tiles/p4.png",
+      "hd": "assets/jackpot/tiles_hd/p4.png",
+      "master": "assets/jackpot/tiles_master/p4.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/p4_east.png",
+        "north": "assets/jackpot/tiles_rotated/p4_north.png",
+        "west": "assets/jackpot/tiles_rotated/p4_west.png"
+      },
+      "atlasRect": [
+        256,
+        176,
+        128,
+        176
+      ]
+    },
+    "p5": {
+      "file": "assets/jackpot/tiles/p5.png",
+      "hd": "assets/jackpot/tiles_hd/p5.png",
+      "master": "assets/jackpot/tiles_master/p5.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/p5_east.png",
+        "north": "assets/jackpot/tiles_rotated/p5_north.png",
+        "west": "assets/jackpot/tiles_rotated/p5_west.png"
+      },
+      "atlasRect": [
+        384,
+        176,
+        128,
+        176
+      ]
+    },
+    "p6": {
+      "file": "assets/jackpot/tiles/p6.png",
+      "hd": "assets/jackpot/tiles_hd/p6.png",
+      "master": "assets/jackpot/tiles_master/p6.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/p6_east.png",
+        "north": "assets/jackpot/tiles_rotated/p6_north.png",
+        "west": "assets/jackpot/tiles_rotated/p6_west.png"
+      },
+      "atlasRect": [
+        512,
+        176,
+        128,
+        176
+      ]
+    },
+    "p7": {
+      "file": "assets/jackpot/tiles/p7.png",
+      "hd": "assets/jackpot/tiles_hd/p7.png",
+      "master": "assets/jackpot/tiles_master/p7.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/p7_east.png",
+        "north": "assets/jackpot/tiles_rotated/p7_north.png",
+        "west": "assets/jackpot/tiles_rotated/p7_west.png"
+      },
+      "atlasRect": [
+        640,
+        176,
+        128,
+        176
+      ]
+    },
+    "p8": {
+      "file": "assets/jackpot/tiles/p8.png",
+      "hd": "assets/jackpot/tiles_hd/p8.png",
+      "master": "assets/jackpot/tiles_master/p8.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/p8_east.png",
+        "north": "assets/jackpot/tiles_rotated/p8_north.png",
+        "west": "assets/jackpot/tiles_rotated/p8_west.png"
+      },
+      "atlasRect": [
+        768,
+        176,
+        128,
+        176
+      ]
+    },
+    "p9": {
+      "file": "assets/jackpot/tiles/p9.png",
+      "hd": "assets/jackpot/tiles_hd/p9.png",
+      "master": "assets/jackpot/tiles_master/p9.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/p9_east.png",
+        "north": "assets/jackpot/tiles_rotated/p9_north.png",
+        "west": "assets/jackpot/tiles_rotated/p9_west.png"
+      },
+      "atlasRect": [
+        896,
+        176,
+        128,
+        176
+      ]
+    },
+    "s1": {
+      "file": "assets/jackpot/tiles/s1.png",
+      "hd": "assets/jackpot/tiles_hd/s1.png",
+      "master": "assets/jackpot/tiles_master/s1.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/s1_east.png",
+        "north": "assets/jackpot/tiles_rotated/s1_north.png",
+        "west": "assets/jackpot/tiles_rotated/s1_west.png"
+      },
+      "atlasRect": [
+        1024,
+        176,
+        128,
+        176
+      ]
+    },
+    "s2": {
+      "file": "assets/jackpot/tiles/s2.png",
+      "hd": "assets/jackpot/tiles_hd/s2.png",
+      "master": "assets/jackpot/tiles_master/s2.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/s2_east.png",
+        "north": "assets/jackpot/tiles_rotated/s2_north.png",
+        "west": "assets/jackpot/tiles_rotated/s2_west.png"
+      },
+      "atlasRect": [
+        1152,
+        176,
+        128,
+        176
+      ]
+    },
+    "s3": {
+      "file": "assets/jackpot/tiles/s3.png",
+      "hd": "assets/jackpot/tiles_hd/s3.png",
+      "master": "assets/jackpot/tiles_master/s3.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/s3_east.png",
+        "north": "assets/jackpot/tiles_rotated/s3_north.png",
+        "west": "assets/jackpot/tiles_rotated/s3_west.png"
+      },
+      "atlasRect": [
+        0,
+        352,
+        128,
+        176
+      ]
+    },
+    "s4": {
+      "file": "assets/jackpot/tiles/s4.png",
+      "hd": "assets/jackpot/tiles_hd/s4.png",
+      "master": "assets/jackpot/tiles_master/s4.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/s4_east.png",
+        "north": "assets/jackpot/tiles_rotated/s4_north.png",
+        "west": "assets/jackpot/tiles_rotated/s4_west.png"
+      },
+      "atlasRect": [
+        128,
+        352,
+        128,
+        176
+      ]
+    },
+    "s5": {
+      "file": "assets/jackpot/tiles/s5.png",
+      "hd": "assets/jackpot/tiles_hd/s5.png",
+      "master": "assets/jackpot/tiles_master/s5.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/s5_east.png",
+        "north": "assets/jackpot/tiles_rotated/s5_north.png",
+        "west": "assets/jackpot/tiles_rotated/s5_west.png"
+      },
+      "atlasRect": [
+        256,
+        352,
+        128,
+        176
+      ]
+    },
+    "s6": {
+      "file": "assets/jackpot/tiles/s6.png",
+      "hd": "assets/jackpot/tiles_hd/s6.png",
+      "master": "assets/jackpot/tiles_master/s6.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/s6_east.png",
+        "north": "assets/jackpot/tiles_rotated/s6_north.png",
+        "west": "assets/jackpot/tiles_rotated/s6_west.png"
+      },
+      "atlasRect": [
+        384,
+        352,
+        128,
+        176
+      ]
+    },
+    "s7": {
+      "file": "assets/jackpot/tiles/s7.png",
+      "hd": "assets/jackpot/tiles_hd/s7.png",
+      "master": "assets/jackpot/tiles_master/s7.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/s7_east.png",
+        "north": "assets/jackpot/tiles_rotated/s7_north.png",
+        "west": "assets/jackpot/tiles_rotated/s7_west.png"
+      },
+      "atlasRect": [
+        512,
+        352,
+        128,
+        176
+      ]
+    },
+    "s8": {
+      "file": "assets/jackpot/tiles/s8.png",
+      "hd": "assets/jackpot/tiles_hd/s8.png",
+      "master": "assets/jackpot/tiles_master/s8.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/s8_east.png",
+        "north": "assets/jackpot/tiles_rotated/s8_north.png",
+        "west": "assets/jackpot/tiles_rotated/s8_west.png"
+      },
+      "atlasRect": [
+        640,
+        352,
+        128,
+        176
+      ]
+    },
+    "s9": {
+      "file": "assets/jackpot/tiles/s9.png",
+      "hd": "assets/jackpot/tiles_hd/s9.png",
+      "master": "assets/jackpot/tiles_master/s9.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/s9_east.png",
+        "north": "assets/jackpot/tiles_rotated/s9_north.png",
+        "west": "assets/jackpot/tiles_rotated/s9_west.png"
+      },
+      "atlasRect": [
+        768,
+        352,
+        128,
+        176
+      ]
+    },
+    "z1": {
+      "file": "assets/jackpot/tiles/z1.png",
+      "hd": "assets/jackpot/tiles_hd/z1.png",
+      "master": "assets/jackpot/tiles_master/z1.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/z1_east.png",
+        "north": "assets/jackpot/tiles_rotated/z1_north.png",
+        "west": "assets/jackpot/tiles_rotated/z1_west.png"
+      },
+      "atlasRect": [
+        896,
+        352,
+        128,
+        176
+      ]
+    },
+    "z2": {
+      "file": "assets/jackpot/tiles/z2.png",
+      "hd": "assets/jackpot/tiles_hd/z2.png",
+      "master": "assets/jackpot/tiles_master/z2.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/z2_east.png",
+        "north": "assets/jackpot/tiles_rotated/z2_north.png",
+        "west": "assets/jackpot/tiles_rotated/z2_west.png"
+      },
+      "atlasRect": [
+        1024,
+        352,
+        128,
+        176
+      ]
+    },
+    "z3": {
+      "file": "assets/jackpot/tiles/z3.png",
+      "hd": "assets/jackpot/tiles_hd/z3.png",
+      "master": "assets/jackpot/tiles_master/z3.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/z3_east.png",
+        "north": "assets/jackpot/tiles_rotated/z3_north.png",
+        "west": "assets/jackpot/tiles_rotated/z3_west.png"
+      },
+      "atlasRect": [
+        1152,
+        352,
+        128,
+        176
+      ]
+    },
+    "z4": {
+      "file": "assets/jackpot/tiles/z4.png",
+      "hd": "assets/jackpot/tiles_hd/z4.png",
+      "master": "assets/jackpot/tiles_master/z4.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/z4_east.png",
+        "north": "assets/jackpot/tiles_rotated/z4_north.png",
+        "west": "assets/jackpot/tiles_rotated/z4_west.png"
+      },
+      "atlasRect": [
+        0,
+        528,
+        128,
+        176
+      ]
+    },
+    "z5": {
+      "file": "assets/jackpot/tiles/z5.png",
+      "hd": "assets/jackpot/tiles_hd/z5.png",
+      "master": "assets/jackpot/tiles_master/z5.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/z5_east.png",
+        "north": "assets/jackpot/tiles_rotated/z5_north.png",
+        "west": "assets/jackpot/tiles_rotated/z5_west.png"
+      },
+      "atlasRect": [
+        128,
+        528,
+        128,
+        176
+      ]
+    },
+    "z6": {
+      "file": "assets/jackpot/tiles/z6.png",
+      "hd": "assets/jackpot/tiles_hd/z6.png",
+      "master": "assets/jackpot/tiles_master/z6.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/z6_east.png",
+        "north": "assets/jackpot/tiles_rotated/z6_north.png",
+        "west": "assets/jackpot/tiles_rotated/z6_west.png"
+      },
+      "atlasRect": [
+        256,
+        528,
+        128,
+        176
+      ]
+    },
+    "z7": {
+      "file": "assets/jackpot/tiles/z7.png",
+      "hd": "assets/jackpot/tiles_hd/z7.png",
+      "master": "assets/jackpot/tiles_master/z7.png",
+      "rotated": {
+        "east": "assets/jackpot/tiles_rotated/z7_east.png",
+        "north": "assets/jackpot/tiles_rotated/z7_north.png",
+        "west": "assets/jackpot/tiles_rotated/z7_west.png"
+      },
+      "atlasRect": [
+        384,
+        528,
+        128,
+        176
+      ]
+    }
+  }
+}

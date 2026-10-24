@@ -1,0 +1,23 @@
+{
+  "kind": "asset_pack_validation",
+  "gameEngineImplemented": false,
+  "gameplayTestsRun": false,
+  "stageCount": 8,
+  "characterCount": 104,
+  "roleCount": 130,
+  "textSpriteCount": 18,
+  "fontCount": 3,
+  "assetFileCount": 341,
+  "checks": [
+    "all_json_parsed",
+    "runtime_paths_exist",
+    "gallery_paths_exist",
+    "all_asset_images_decodable",
+    "character_ids_unique_and_ranks_match_source",
+    "approved_portraits_byte_identical",
+    "woff2_glyph_mapping_matches_ttf",
+    "required_japanese_glyphs_present",
+    "excluded_boston_roster",
+    "exact_trait_character_ids"
+  ]
+}

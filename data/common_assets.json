@@ -1,0 +1,626 @@
+{
+  "version": "0.0.1",
+  "tileSize": [
+    128,
+    176
+  ],
+  "tileCount": 38,
+  "tiles": {
+    "m1": {
+      "name": "1萬子",
+      "file": "assets/common/v002/tiles/m1.png",
+      "atlasRect": [
+        0,
+        0,
+        128,
+        176
+      ],
+      "baseKind": "m1",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/m1_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/m1.png",
+      "hdRealV001": "assets/common/tiles_hd/m1.png"
+    },
+    "m2": {
+      "name": "2萬子",
+      "file": "assets/common/v002/tiles/m2.png",
+      "atlasRect": [
+        128,
+        0,
+        128,
+        176
+      ],
+      "baseKind": "m2",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/m2_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/m2.png",
+      "hdRealV001": "assets/common/tiles_hd/m2.png"
+    },
+    "m3": {
+      "name": "3萬子",
+      "file": "assets/common/v002/tiles/m3.png",
+      "atlasRect": [
+        256,
+        0,
+        128,
+        176
+      ],
+      "baseKind": "m3",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/m3_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/m3.png",
+      "hdRealV001": "assets/common/tiles_hd/m3.png"
+    },
+    "m4": {
+      "name": "4萬子",
+      "file": "assets/common/v002/tiles/m4.png",
+      "atlasRect": [
+        384,
+        0,
+        128,
+        176
+      ],
+      "baseKind": "m4",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/m4_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/m4.png",
+      "hdRealV001": "assets/common/tiles_hd/m4.png"
+    },
+    "m5": {
+      "name": "5萬子",
+      "file": "assets/common/v002/tiles/m5.png",
+      "atlasRect": [
+        512,
+        0,
+        128,
+        176
+      ],
+      "baseKind": "m5",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/m5_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/m5.png",
+      "hdRealV001": "assets/common/tiles_hd/m5.png"
+    },
+    "m6": {
+      "name": "6萬子",
+      "file": "assets/common/v002/tiles/m6.png",
+      "atlasRect": [
+        640,
+        0,
+        128,
+        176
+      ],
+      "baseKind": "m6",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/m6_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/m6.png",
+      "hdRealV001": "assets/common/tiles_hd/m6.png"
+    },
+    "m7": {
+      "name": "7萬子",
+      "file": "assets/common/v002/tiles/m7.png",
+      "atlasRect": [
+        768,
+        0,
+        128,
+        176
+      ],
+      "baseKind": "m7",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/m7_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/m7.png",
+      "hdRealV001": "assets/common/tiles_hd/m7.png"
+    },
+    "m8": {
+      "name": "8萬子",
+      "file": "assets/common/v002/tiles/m8.png",
+      "atlasRect": [
+        896,
+        0,
+        128,
+        176
+      ],
+      "baseKind": "m8",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/m8_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/m8.png",
+      "hdRealV001": "assets/common/tiles_hd/m8.png"
+    },
+    "m9": {
+      "name": "9萬子",
+      "file": "assets/common/v002/tiles/m9.png",
+      "atlasRect": [
+        1024,
+        0,
+        128,
+        176
+      ],
+      "baseKind": "m9",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/m9_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/m9.png",
+      "hdRealV001": "assets/common/tiles_hd/m9.png"
+    },
+    "p1": {
+      "name": "1筒子",
+      "file": "assets/common/v002/tiles/p1.png",
+      "atlasRect": [
+        1152,
+        0,
+        128,
+        176
+      ],
+      "baseKind": "p1",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/p1_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/p1.png",
+      "hdRealV001": "assets/common/tiles_hd/p1.png"
+    },
+    "p2": {
+      "name": "2筒子",
+      "file": "assets/common/v002/tiles/p2.png",
+      "atlasRect": [
+        0,
+        176,
+        128,
+        176
+      ],
+      "baseKind": "p2",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/p2_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/p2.png",
+      "hdRealV001": "assets/common/tiles_hd/p2.png"
+    },
+    "p3": {
+      "name": "3筒子",
+      "file": "assets/common/v002/tiles/p3.png",
+      "atlasRect": [
+        128,
+        176,
+        128,
+        176
+      ],
+      "baseKind": "p3",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/p3_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/p3.png",
+      "hdRealV001": "assets/common/tiles_hd/p3.png"
+    },
+    "p4": {
+      "name": "4筒子",
+      "file": "assets/common/v002/tiles/p4.png",
+      "atlasRect": [
+        256,
+        176,
+        128,
+        176
+      ],
+      "baseKind": "p4",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/p4_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/p4.png",
+      "hdRealV001": "assets/common/tiles_hd/p4.png"
+    },
+    "p5": {
+      "name": "5筒子",
+      "file": "assets/common/v002/tiles/p5.png",
+      "atlasRect": [
+        384,
+        176,
+        128,
+        176
+      ],
+      "baseKind": "p5",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/p5_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/p5.png",
+      "hdRealV001": "assets/common/tiles_hd/p5.png"
+    },
+    "p6": {
+      "name": "6筒子",
+      "file": "assets/common/v002/tiles/p6.png",
+      "atlasRect": [
+        512,
+        176,
+        128,
+        176
+      ],
+      "baseKind": "p6",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/p6_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/p6.png",
+      "hdRealV001": "assets/common/tiles_hd/p6.png"
+    },
+    "p7": {
+      "name": "7筒子",
+      "file": "assets/common/v002/tiles/p7.png",
+      "atlasRect": [
+        640,
+        176,
+        128,
+        176
+      ],
+      "baseKind": "p7",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/p7_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/p7.png",
+      "hdRealV001": "assets/common/tiles_hd/p7.png"
+    },
+    "p8": {
+      "name": "8筒子",
+      "file": "assets/common/v002/tiles/p8.png",
+      "atlasRect": [
+        768,
+        176,
+        128,
+        176
+      ],
+      "baseKind": "p8",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/p8_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/p8.png",
+      "hdRealV001": "assets/common/tiles_hd/p8.png"
+    },
+    "p9": {
+      "name": "9筒子",
+      "file": "assets/common/v002/tiles/p9.png",
+      "atlasRect": [
+        896,
+        176,
+        128,
+        176
+      ],
+      "baseKind": "p9",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/p9_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/p9.png",
+      "hdRealV001": "assets/common/tiles_hd/p9.png"
+    },
+    "s1": {
+      "name": "1索子",
+      "file": "assets/common/v002/tiles/s1.png",
+      "atlasRect": [
+        1024,
+        176,
+        128,
+        176
+      ],
+      "baseKind": "s1",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/s1_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/s1.png",
+      "hdRealV001": "assets/common/tiles_hd/s1.png"
+    },
+    "s2": {
+      "name": "2索子",
+      "file": "assets/common/v002/tiles/s2.png",
+      "atlasRect": [
+        1152,
+        176,
+        128,
+        176
+      ],
+      "baseKind": "s2",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/s2_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/s2.png",
+      "hdRealV001": "assets/common/tiles_hd/s2.png"
+    },
+    "s3": {
+      "name": "3索子",
+      "file": "assets/common/v002/tiles/s3.png",
+      "atlasRect": [
+        0,
+        352,
+        128,
+        176
+      ],
+      "baseKind": "s3",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/s3_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/s3.png",
+      "hdRealV001": "assets/common/tiles_hd/s3.png"
+    },
+    "s4": {
+      "name": "4索子",
+      "file": "assets/common/v002/tiles/s4.png",
+      "atlasRect": [
+        128,
+        352,
+        128,
+        176
+      ],
+      "baseKind": "s4",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/s4_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/s4.png",
+      "hdRealV001": "assets/common/tiles_hd/s4.png"
+    },
+    "s5": {
+      "name": "5索子",
+      "file": "assets/common/v002/tiles/s5.png",
+      "atlasRect": [
+        256,
+        352,
+        128,
+        176
+      ],
+      "baseKind": "s5",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/s5_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/s5.png",
+      "hdRealV001": "assets/common/tiles_hd/s5.png"
+    },
+    "s6": {
+      "name": "6索子",
+      "file": "assets/common/v002/tiles/s6.png",
+      "atlasRect": [
+        384,
+        352,
+        128,
+        176
+      ],
+      "baseKind": "s6",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/s6_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/s6.png",
+      "hdRealV001": "assets/common/tiles_hd/s6.png"
+    },
+    "s7": {
+      "name": "7索子",
+      "file": "assets/common/v002/tiles/s7.png",
+      "atlasRect": [
+        512,
+        352,
+        128,
+        176
+      ],
+      "baseKind": "s7",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/s7_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/s7.png",
+      "hdRealV001": "assets/common/tiles_hd/s7.png"
+    },
+    "s8": {
+      "name": "8索子",
+      "file": "assets/common/v002/tiles/s8.png",
+      "atlasRect": [
+        640,
+        352,
+        128,
+        176
+      ],
+      "baseKind": "s8",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/s8_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/s8.png",
+      "hdRealV001": "assets/common/tiles_hd/s8.png"
+    },
+    "s9": {
+      "name": "9索子",
+      "file": "assets/common/v002/tiles/s9.png",
+      "atlasRect": [
+        768,
+        352,
+        128,
+        176
+      ],
+      "baseKind": "s9",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/s9_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/s9.png",
+      "hdRealV001": "assets/common/tiles_hd/s9.png"
+    },
+    "z1": {
+      "name": "東",
+      "file": "assets/common/v002/tiles/z1.png",
+      "atlasRect": [
+        896,
+        352,
+        128,
+        176
+      ],
+      "baseKind": "z1",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/z1_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/z1.png",
+      "hdRealV001": "assets/common/tiles_hd/z1.png"
+    },
+    "z2": {
+      "name": "南",
+      "file": "assets/common/v002/tiles/z2.png",
+      "atlasRect": [
+        1024,
+        352,
+        128,
+        176
+      ],
+      "baseKind": "z2",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/z2_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/z2.png",
+      "hdRealV001": "assets/common/tiles_hd/z2.png"
+    },
+    "z3": {
+      "name": "西",
+      "file": "assets/common/v002/tiles/z3.png",
+      "atlasRect": [
+        1152,
+        352,
+        128,
+        176
+      ],
+      "baseKind": "z3",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/z3_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/z3.png",
+      "hdRealV001": "assets/common/tiles_hd/z3.png"
+    },
+    "z4": {
+      "name": "北",
+      "file": "assets/common/v002/tiles/z4.png",
+      "atlasRect": [
+        0,
+        528,
+        128,
+        176
+      ],
+      "baseKind": "z4",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/z4_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/z4.png",
+      "hdRealV001": "assets/common/tiles_hd/z4.png"
+    },
+    "z5": {
+      "name": "白",
+      "file": "assets/common/v002/tiles/z5.png",
+      "atlasRect": [
+        128,
+        528,
+        128,
+        176
+      ],
+      "baseKind": "z5",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/z5_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/z5.png",
+      "hdRealV001": "assets/common/tiles_hd/z5.png"
+    },
+    "z6": {
+      "name": "發",
+      "file": "assets/common/v002/tiles/z6.png",
+      "atlasRect": [
+        256,
+        528,
+        128,
+        176
+      ],
+      "baseKind": "z6",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/z6_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/z6.png",
+      "hdRealV001": "assets/common/tiles_hd/z6.png"
+    },
+    "z7": {
+      "name": "中",
+      "file": "assets/common/v002/tiles/z7.png",
+      "atlasRect": [
+        384,
+        528,
+        128,
+        176
+      ],
+      "baseKind": "z7",
+      "rotated": {
+        "east": "assets/common/v002/tiles_rotated/z7_east.png"
+      },
+      "hd": "assets/common/v002/tiles_hd/z7.png",
+      "hdRealV001": "assets/common/tiles_hd/z7.png"
+    },
+    "back": {
+      "name": "裏面",
+      "file": "assets/common/tiles/back.png",
+      "atlasRect": [
+        512,
+        528,
+        128,
+        176
+      ],
+      "baseKind": "back",
+      "hd": "assets/common/tiles_hd/back.png"
+    },
+    "m0": {
+      "name": "赤５萬子",
+      "file": "assets/common/tiles/m0.png",
+      "atlasRect": [
+        640,
+        528,
+        128,
+        176
+      ],
+      "baseKind": "m5",
+      "rotated": {
+        "east": "assets/common/tiles_rotated/m0_east.png"
+      }
+    },
+    "p0": {
+      "name": "赤５筒子",
+      "file": "assets/common/tiles/p0.png",
+      "atlasRect": [
+        768,
+        528,
+        128,
+        176
+      ],
+      "baseKind": "p5",
+      "rotated": {
+        "east": "assets/common/tiles_rotated/p0_east.png"
+      }
+    },
+    "s0": {
+      "name": "赤５索子",
+      "file": "assets/common/tiles/s0.png",
+      "atlasRect": [
+        896,
+        528,
+        128,
+        176
+      ],
+      "baseKind": "s5",
+      "rotated": {
+        "east": "assets/common/tiles_rotated/s0_east.png"
+      }
+    }
+  },
+  "background": {
+    "file": "assets/common/table_uw2.webp",
+    "size": [
+      1440,
+      1080
+    ],
+    "note": "v025 裏社会UI素材で組み直した卓（tools/build_table_bg.py）。緑の羅紗は旧 table_uw.jpg から"
+  },
+  "branding": {
+    "logo": "assets/common/logo.webp"
+  },
+  "atlasFile": null,
+  "tileVersion": "v002g1",
+  "hdTileSize": [
+    256,
+    352
+  ],
+  "tileSetNote": "通常牌は金牌（jackpot）と同じ図柄のアイボリー版 v002（金牌から色だけ変換）。旧リアル牌v001は assets/common/tiles 等に残し fileRealV001 で参照可。"
+}

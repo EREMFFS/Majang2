@@ -1,0 +1,129 @@
+{
+  "files": [
+    {
+      "path": "PREVIEW_CASH.jpg",
+      "bytes": 260672,
+      "sha256": "4831638034d6c043ca7320cd0fdab5b4628b0ea1bcaeb4e8fbd42adde209d37c"
+    },
+    {
+      "path": "ROLE_NAME_PROPOSALS.md",
+      "bytes": 2792,
+      "sha256": "9c6f78e36fcb35cceafef64e2b3a6d275e33395bc6c4145c1e64119095599796"
+    },
+    {
+      "path": "START_HERE_CLAUDE.md",
+      "bytes": 6767,
+      "sha256": "bf0df4abf002097ac953c6779da1e8f265ba71c5b3bb8661a3866e7dc9938df1"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 666,
+      "sha256": "cfa4d406ca6a6075e700f9fe182777cbab7b1145dadb7c02f1157eb35076e6d8"
+    },
+    {
+      "path": "assets/cash/bill_1000.png",
+      "bytes": 232960,
+      "sha256": "207262b220b8fb79fb96889fbd7744586d007f025b736ed63babaac091c06ba9"
+    },
+    {
+      "path": "assets/cash/bill_10000.png",
+      "bytes": 270217,
+      "sha256": "422bb27ae8cd05ce1d2a200e6190c2d3e6fe2bb6b1e2529120c3b15826732d7d"
+    },
+    {
+      "path": "assets/cash/bill_10000_back.png",
+      "bytes": 247069,
+      "sha256": "64de0ee02c0888fe8804717598641d3cc735704ea25ab10bf9d1e740a1b338a7"
+    },
+    {
+      "path": "assets/cash/bundle_100man.png",
+      "bytes": 184665,
+      "sha256": "df14739168a7cc6b35196b08ead9189b11768b624874690b1d1f9dca3381daaf"
+    },
+    {
+      "path": "assets/cash/bundle_side.png",
+      "bytes": 18939,
+      "sha256": "c84ea1286c2754541972bb046cbac17b41fb53589c57143544a9a1caf7a1d489"
+    },
+    {
+      "path": "assets/cash/case_closed.png",
+      "bytes": 288939,
+      "sha256": "84409c7044838f8185e26fc89ff89fe7d260f5c75d7ee54227f9f5131ee3df74"
+    },
+    {
+      "path": "assets/cash/case_open.png",
+      "bytes": 401576,
+      "sha256": "7e847f1ef9772c4559e0c5866dc897fbcc4d67684e70456a0bad10b10868052f"
+    },
+    {
+      "path": "assets/cash/coin_100.png",
+      "bytes": 30726,
+      "sha256": "1014151be771e5a9ac675d6c32811a0cba321152253131e5f5f27538098161fb"
+    },
+    {
+      "path": "assets/cash/iou.png",
+      "bytes": 259241,
+      "sha256": "dee686fd374cf3a5ffbaa85048ee76ec257353804ac4d8bf656f5bcaf3629a85"
+    },
+    {
+      "path": "data/cash_assets.json",
+      "bytes": 3530,
+      "sha256": "669088b9e43eaaa0acce6371e00133ab494e2edeba946ed1737b848180a3c08f"
+    },
+    {
+      "path": "data/role_name_proposals.json",
+      "bytes": 6479,
+      "sha256": "48a6ea6b279021f678c89abe9347496c25fb2170fdacfae793ffcf10ed80e4af"
+    },
+    {
+      "path": "hd/bill_1000.png",
+      "bytes": 4066298,
+      "sha256": "9e785bed57284000169e10f0463c51ed55f7da21194356517c87738cd374947c"
+    },
+    {
+      "path": "hd/bill_10000.png",
+      "bytes": 3879888,
+      "sha256": "df871dd81542c8cc8f39152ca5e17297b60d7ba7e128089d1de41f3063604597"
+    },
+    {
+      "path": "hd/bill_10000_back.png",
+      "bytes": 4052865,
+      "sha256": "ae34ee6cd8407e6f7a1582214e576945a4325201aa993dc87cc8ac1d55216594"
+    },
+    {
+      "path": "hd/bundle_100man.png",
+      "bytes": 3108971,
+      "sha256": "b5bf252e867ca8dfc291636879ab91ef8c983a0dc5bcf22eab20e05c4ef0e565"
+    },
+    {
+      "path": "hd/bundle_side.png",
+      "bytes": 1327264,
+      "sha256": "92daeb86be0fe8d1b3d34e73495a7d933831f176f5218244709a86d9d642ada2"
+    },
+    {
+      "path": "hd/case_closed.png",
+      "bytes": 2317390,
+      "sha256": "ed2d44b1d637eac075c3b8ed790f5899e3fe62322afb0df98376729d28390cc5"
+    },
+    {
+      "path": "hd/case_open.png",
+      "bytes": 3069219,
+      "sha256": "c1fe0e9a246f0ce3424032c1ae93d540f0088450839d1d6e0ef07f6c35390cf4"
+    },
+    {
+      "path": "hd/coin_100.png",
+      "bytes": 2964457,
+      "sha256": "36cc4677fdfbf2823c340529870c4ab283856d60f6cb358978d8c7884fb08506"
+    },
+    {
+      "path": "hd/iou.png",
+      "bytes": 2476593,
+      "sha256": "7920aefe1e879f603be7ce5e3bfe6199b5da467b256127c8df23b9a7893ff176"
+    },
+    {
+      "path": "sources/prompts.json",
+      "bytes": 14190,
+      "sha256": "ce775602a83d7b8e2320e9f0a319cbe77fb54dddcbb3e9dfe7cd15a0183cac28"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "version": 1,
+  "title": "麻雀2",
+  "language": "ja",
+  "audioMode": "bgm_voice_se",
+  "players": 4,
+  "stageCount": 5,
+  "characterCount": 16,
+  "rounds": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "dealerRepeats": false,
+  "startingScore": 30000,
+  "scoreTransfer": true,
+  "winningScoreMode": "transfer_ron_full_tsumo_split",
+  "riichiDeposit": 0,
+  "redFives": false,
+  "kuitan": true,
+  "atozuke": true,
+  "deadWallTiles": 14,
+  "abortiveDraws": false,
+  "nonWinnerHanScore": {
+    "1": 100,
+    "2": 200,
+    "3": 400,
+    "4": 800,
+    "5plus": 1600
+  },
+  "ordinaryCustomYakumanPoints": 32000,
+  "superJackpotPoints": 1000000,
+  "awardMinorOnWin": true,
+  "awardMinorOnNonWin": true,
+  "minorDoesNotEnableWin": true,
+  "settlementOrder": "win_order_then_nonwinners_seat_order",
+  "provisionalDefaults": [
+    "連荘なしの８局",
+    "通常の新役満は固定32000点",
+    "立直供託なし",
+    "赤ドラなし",
+    "鳴き回数系列は最上位のみ",
+    "標準役の未和了評価方法は別紙",
+    "新役の翻は初期バランス値",
+    "子役は4個で1翻（最大4翻）",
+    "和了点はロンなら放銃者が全額、ツモは親子払い（固定点型は親子比率で割り振り）",
+    "ハコテンなし（マイナス継続）"
+  ],
+  "roleCount": 130,
+  "playerFaceId": "mj2_p01",
+  "yakumanTenpaiStartChance": 1.0,
+  "cpuThinkMs": 260,
+  "notes_mj2_impl": [
+    "cpuThinkMs: CPUの考慮の間(ミリ秒)。",
+    "settlementYakuMs / settlementYakumanMs: 精算で和了者の役を１つずつ紹介する時間（ミリ秒）。クリックで早送り可。後日ボイスの長さに合わせて調整。",
+    "chanceLockMs / riichiChanceLockMs: ロン・ツモ／リーチのチャンス表示後、誤クリックを防ぐため入力を受け付けない時間（ミリ秒）。リーチの演出は各局で最初に可能になった時だけ。",
+    "transfer_v1: 和了点はプレイヤー間で授受。ロン=放銃者が全額（複数ロンは人数分）、ツモ=親子払い（待機中の和了者も負担）。役満・ジャックポット等の固定点型ツモは総額を親2:子1:子1（親ツモは1:1:1）で100点単位に割り振り、端数は先頭の支払者で調整。未和了者の役点は自己加点。ハコテンなし。",
+    "theme: 裏社会編(underworld_2200)。金額表示は「円」。内部の点数整数は不変。",
+    "起動画面: 全ゲーム共通の LONKA ロゴ（黒地に LONKA CORPORATE PRESENTS → 読み込み完了で PRESS ANY KEY → 押すと音を起こして「ピッピッ」→ 0.8秒で消えてタイトル）。bootLogo は未使用。",
+    "yakumanTenpaiStartChance / yakumanStartTemplateKinds: 役満配牌キャラ(双鳥羽佐助)が各局、yakumanStartTemplates から重み付きで１つ選んだ役満の材料を yakumanStartTemplateKinds 枚（初期7＝約半分）持って始まる確率。残りは普通の配牌。",
+    "minorDoesNotEnableWin=true: 子役まとめ（四子安〜十六子安）はドラと同じ加算翻。これだけでは和了できず、別の役で和了できる時だけ1〜4翻を加算。未和了の役報酬では従来どおり翻に数える。",
+    "maxWinnersPerRound=3: ３人が和了した時点でその局は終了（最後の一人は和了できない）。",
+    "tripleCrown: 子役王・多数王・鳴きの王に各prizeEach点（5,000点）×組織レート、３つ独占でsweepBonus点（10,000点）×組織レートを追加。局の倍率は掛けない。多数王の数え方は初期案。",
+    "rate: 所持金は円で保存（局ごとに点×レート×倍率で加算）。マイナスは「借金」表示。",
+    "startingScore=30000: 持ち点は3万点から。初期所持金＝30,000点×組織レート（例: 邪見山連盟 1,500万円）。"
+  ],
+  "bootLogo": null,
+  "settlementYakuMs": 1800,
+  "settlementYakumanMs": 2600,
+  "minorScoring": {
+    "mode": "bundle_han",
+    "groupSize": 4,
+    "maxHan": 4,
+    "individualPointsEnabled": false,
+    "countStage": "after_exclusive_group_resolution",
+    "dedupe": "roleId_per_player_per_round",
+    "carryRemainder": false,
+    "countsAsWinningYaku": true,
+    "keepResultList": true,
+    "keepRoleBook": true,
+    "keepMinorKingCount": true,
+    "syntheticRoleId": "system_minor_bundle",
+    "bundleRoles": [
+      {
+        "id": "bundle_4",
+        "minCount": 4,
+        "han": 1,
+        "name": "四子安",
+        "reading": "スーツーアン",
+        "voiceEvent": "yaku_bundle_4"
+      },
+      {
+        "id": "bundle_8",
+        "minCount": 8,
+        "han": 2,
+        "name": "八子安",
+        "reading": "パーツーアン",
+        "voiceEvent": "yaku_bundle_8"
+      },
+      {
+        "id": "bundle_12",
+        "minCount": 12,
+        "han": 3,
+        "name": "十二子安",
+        "reading": "シーアルツーアン",
+        "voiceEvent": "yaku_bundle_12"
+      },
+      {
+        "id": "bundle_16",
+        "minCount": 16,
+        "han": 4,
+        "name": "十六子安",
+        "reading": "シーリウツーアン",
+        "voiceEvent": "yaku_bundle_16"
+      }
+    ]
+  },
+  "jackpotTileAppearance": {
+    "mode": "gold_asset",
+    "targetSource": "jackpotTargets",
+    "applyToTargetPanel": true,
+    "applyToOwnHand": true,
+    "applyToOwnDraw": true,
+    "revealOpponentHiddenTiles": false,
+    "manifest": "assets/jackpot/gold_manifest.json"
+  },
+  "scoringPolicyVersion": "transfer_v3_stake",
+  "minorBundleThresholds": [
+    {
+      "minCount": 0,
+      "han": 0
+    },
+    {
+      "minCount": 4,
+      "han": 1
+    },
+    {
+      "minCount": 8,
+      "han": 2
+    },
+    {
+      "minCount": 12,
+      "han": 3
+    },
+    {
+      "minCount": 16,
+      "han": 4
+    }
+  ],
+  "chanceLockMs": 900,
+  "riichiChanceLockMs": 500,
+  "allowNegativeScores": true,
+  "theme": {
+    "themeId": "underworld_2200",
+    "title": "麻雀2",
+    "year": 2200,
+    "showCharacterNames": true,
+    "currency": {
+      "code": "JPY",
+      "suffix": "円",
+      "fractionDigits": 0,
+      "numericScale": 1
+    },
+    "selectTitle": "対戦組織選択",
+    "vsTitleTemplate": "VS {organizationName}",
+    "winLabel": "撃破",
+    "storyEnabled": false,
+    "endingEnabled": false,
+    "voiceBank": "single_deep_male_announcer",
+    "clearSaveNamespace": "underworld_2200"
+  },
+  "tripleCrown": {
+    "enabled": true,
+    "prizeEach": 5000,
+    "sweepBonus": 10000,
+    "tiesAllAwarded": true,
+    "minCount": 1,
+    "titles": [
+      {
+        "id": "minor_king",
+        "name": "子役王",
+        "count": "minor_roles_total",
+        "note": "全局の実獲得子役件数の合計（換算翻ではない）"
+      },
+      {
+        "id": "many_king",
+        "name": "多数王",
+        "count": "major_roles_total",
+        "note": "初期案：全局で獲得した役（子役以外の翻役・役満・固定点役）の件数の合計"
+      },
+      {
+        "id": "naki_king",
+        "name": "鳴きの王",
+        "count": "calls_total",
+        "note": "全局のチー・ポン・明槓・加槓の回数の合計"
+      }
+    ],
+    "unit": "points_times_org_rate"
+  },
+  "maxWinnersPerRound": 3,
+  "yakumanStartTemplateKinds": 7,
+  "yakumanStartTemplates": [
+    {
+      "id": "kokushi",
+      "name": "国士無双",
+      "weight": 1
+    },
+    {
+      "id": "ryuuiisou",
+      "name": "緑一色",
+      "weight": 1
+    },
+    {
+      "id": "daisangen",
+      "name": "大三元",
+      "weight": 1
+    },
+    {
+      "id": "tsuuiisou",
+      "name": "字一色",
+      "weight": 1
+    },
+    {
+      "id": "chinroutou",
+      "name": "清老頭",
+      "weight": 1
+    },
+    {
+      "id": "suuankou",
+      "name": "四暗刻",
+      "weight": 1
+    },
+    {
+      "id": "suushii",
+      "name": "四喜和",
+      "weight": 1
+    },
+    {
+      "id": "chuuren",
+      "name": "九蓮宝燈",
+      "weight": 1
+    }
+  ],
+  "rate": {
+    "enabled": true,
+    "defaultYenPerPoint": 1,
+    "roundMultipliers": {
+      "E1": 1,
+      "E2": 1,
+      "E3": 1,
+      "E4": 1,
+      "S1": 2,
+      "S2": 2,
+      "S3": 2,
+      "S4": 3
+    },
+    "note": "役・翻・符・点数・持ち点は点のまま。精算で 点×組織レート(stage_tables.json rateYenPerPoint)×局の倍率 の円をやり取りし、所持金（円）で順位を決める。南場×2、オーラス×3。"
+  },
+  "bankruptcy": {
+    "enabled": true,
+    "checkAfterRound": "E4",
+    "threshold": 0,
+    "note": "東場終了（東四局の精算後）に主人公の所持金が0円以下なら破産でゲームオーバー。初期所持金＝持ち点30,000点×組織レートなので、東場（倍率×1）では持ち点0点で所持金0円になる。"
+  },
+  "goldDora": {
+    "enabled": true,
+    "name": "黄金ドラ",
+    "reading": "オウゴンドラ",
+    "hanPerTile": 1,
+    "maxHan": 3,
+    "requireMenzen": true,
+    "winnerOnly": true,
+    "note": "ジャックポット対象（金色）の牌を手牌に持っていると、種類ごとに1枚＝1翻（最大3翻）。ドラ・裏ドラと同じ加算翻で、これだけでは和了できない。和了った時だけ。鳴いている（副露あり）と数えない。"
+  },
+  "opening": {
+    "openingEnabled": true,
+    "note": "起動ロゴ→オープニング→タイトル（v026）。素材 MAHJONG2_OPENING_v002。各カットはナレーション終了＋afterVoiceMsで次へ、最後は lastHoldMs 保持してタイトル。ナレーションが無い・読めない時だけ durationMs（仮尺）。クリック／決定キーでスキップ（音声も停止）。",
+    "fadeMs": 400,
+    "afterVoiceMs": 500,
+    "lastHoldMs": 1000,
+    "voiceDelayMs": 350,
+    "zoom": [
+      1,
+      1.035
+    ],
+    "titleAsset": "assets/opening/title_mahjong2.webp",
+    "subtitleStyle": {
+      "fontFamily": "MJ2OpBrush",
+      "fontSizes": [
+        26,
+        20,
+        20,
+        32
+      ],
+      "tracking": 0.75,
+      "fill": "#e9ded0",
+      "shadow": "#641c24",
+      "shadowOffset": [
+        1.5,
+        2
+      ],
+      "lineHeight": 34
+    },
+    "scenes": [
+      {
+        "id": "op01_new_era",
+        "image": "assets/opening/op01_new_era.webp",
+        "subtitle": "2200年、麻雀界は新たなルールが誕生していた。",
+        "durationMs": 7000,
+        "voice": "op_vo_1",
+        "showTitle": false
+      },
+      {
+        "id": "op02_escalation",
+        "image": "assets/opening/op02_escalation.webp",
+        "subtitle": "新たな役が生まれ、斬新なルールが生まれ過激になっていき\nそしてまた、命のやり取りもより過激になっていった。",
+        "durationMs": 11000,
+        "voice": "op_vo_2",
+        "showTitle": false
+      },
+      {
+        "id": "op03_fortune_and_power",
+        "image": "assets/opening/op03_fortune_and_power.webp",
+        "subtitle": "しかしそれは、戦う男達の心を揺さぶり\n己の財産をかけて裏世界の覇権をかけて戦う武術へと進化したのだ。",
+        "durationMs": 12000,
+        "voice": "op_vo_3",
+        "showTitle": false
+      },
+      {
+        "id": "op04_mahjong2",
+        "image": "assets/opening/op04_mahjong2.webp",
+        "subtitle": "それが麻雀2である。",
+        "durationMs": 5000,
+        "voice": "op_vo_4",
+        "showTitle": true
+      }
+    ]
+  }
+}

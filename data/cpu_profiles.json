@@ -1,0 +1,113 @@
+{
+  "version": 2,
+  "notes": "skillは1〜5の仮バランス案。紅蓮ポン太郎は強め、双鳥羽佐助は最強。その他の数値・傾向は調整可能。特殊特性を旧キャラから引き継がない。",
+  "profiles": [
+    {
+      "characterId": "mj2_c01",
+      "skill": 4.3,
+      "tendency": "standard",
+      "tendencyProvenance": "provisional_balance",
+      "traits": []
+    },
+    {
+      "characterId": "mj2_c02",
+      "skill": 3.4,
+      "tendency": "standard",
+      "tendencyProvenance": "provisional_balance",
+      "traits": []
+    },
+    {
+      "characterId": "mj2_c03",
+      "skill": 2.7,
+      "tendency": "standard",
+      "tendencyProvenance": "provisional_balance",
+      "traits": []
+    },
+    {
+      "characterId": "mj2_c04",
+      "skill": 4.1,
+      "tendency": "standard",
+      "tendencyProvenance": "provisional_balance",
+      "traits": []
+    },
+    {
+      "characterId": "mj2_c05",
+      "skill": 3.7,
+      "tendency": "standard",
+      "tendencyProvenance": "provisional_balance",
+      "traits": []
+    },
+    {
+      "characterId": "mj2_c06",
+      "skill": 3.6,
+      "tendency": "standard",
+      "tendencyProvenance": "provisional_balance",
+      "traits": []
+    },
+    {
+      "characterId": "mj2_c07",
+      "skill": 4.5,
+      "tendency": "standard",
+      "tendencyProvenance": "provisional_balance",
+      "traits": []
+    },
+    {
+      "characterId": "mj2_c08",
+      "skill": 3.9,
+      "tendency": "standard",
+      "tendencyProvenance": "provisional_balance",
+      "traits": []
+    },
+    {
+      "characterId": "mj2_c09",
+      "skill": 3.8,
+      "tendency": "standard",
+      "tendencyProvenance": "provisional_balance",
+      "traits": []
+    },
+    {
+      "characterId": "mj2_c10",
+      "skill": 4.4,
+      "tendency": "standard",
+      "tendencyProvenance": "provisional_balance",
+      "traits": []
+    },
+    {
+      "characterId": "mj2_c11",
+      "skill": 4.2,
+      "tendency": "standard",
+      "tendencyProvenance": "provisional_balance",
+      "traits": []
+    },
+    {
+      "characterId": "mj2_c12",
+      "skill": 3.8,
+      "tendency": "standard",
+      "tendencyProvenance": "provisional_balance",
+      "traits": []
+    },
+    {
+      "characterId": "mj2_c13",
+      "skill": 4.7,
+      "tendency": "standard",
+      "tendencyProvenance": "provisional_balance",
+      "traits": []
+    },
+    {
+      "characterId": "mj2_c14",
+      "skill": 5.0,
+      "tendency": "standard",
+      "tendencyProvenance": "provisional_balance",
+      "traits": [
+        "yakuman_tenpai_start"
+      ]
+    },
+    {
+      "characterId": "mj2_c15",
+      "skill": 4.4,
+      "tendency": "standard",
+      "tendencyProvenance": "provisional_balance",
+      "traits": []
+    }
+  ]
+}

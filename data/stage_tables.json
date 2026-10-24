@@ -1,0 +1,151 @@
+{
+  "version": 4,
+  "stageLabel": "対戦組織選択",
+  "stages": [
+    {
+      "id": "mj2_org01",
+      "label": "紅蓮組",
+      "organizationId": "mj2_org01",
+      "location": "赤い部屋",
+      "description": "千葉を拠点とする極悪組織。",
+      "opponentCount": 3,
+      "selection": "fixed",
+      "rosterFixedFor": "east_south_match",
+      "characterIds": [
+        "mj2_c01",
+        "mj2_c02",
+        "mj2_c03"
+      ],
+      "characterIdsByStrength": [
+        "mj2_c01",
+        "mj2_c02",
+        "mj2_c03"
+      ],
+      "background": "assets/backgrounds/mj2_org01.webp",
+      "backgroundUse": [
+        "organization_select",
+        "vs",
+        "surroundings"
+      ],
+      "clearCondition": "player_final_rank_1",
+      "clearLabel": "撃破",
+      "rateYenPerPoint": 30
+    },
+    {
+      "id": "mj2_org02",
+      "label": "相模連合",
+      "organizationId": "mj2_org02",
+      "location": "ビジネスミーティングルーム",
+      "description": "東京から神奈川を支配するインテリヤクザ集団。",
+      "opponentCount": 3,
+      "selection": "fixed",
+      "rosterFixedFor": "east_south_match",
+      "characterIds": [
+        "mj2_c04",
+        "mj2_c05",
+        "mj2_c06"
+      ],
+      "characterIdsByStrength": [
+        "mj2_c04",
+        "mj2_c05",
+        "mj2_c06"
+      ],
+      "background": "assets/backgrounds/mj2_org02.webp",
+      "backgroundUse": [
+        "organization_select",
+        "vs",
+        "surroundings"
+      ],
+      "clearCondition": "player_final_rank_1",
+      "clearLabel": "撃破",
+      "rateYenPerPoint": 50
+    },
+    {
+      "id": "mj2_org03",
+      "label": "愛知爆裂山",
+      "organizationId": "mj2_org03",
+      "location": "工場の広場",
+      "description": "中京を支配する裏社会の大手。",
+      "opponentCount": 3,
+      "selection": "fixed",
+      "rosterFixedFor": "east_south_match",
+      "characterIds": [
+        "mj2_c07",
+        "mj2_c08",
+        "mj2_c09"
+      ],
+      "characterIdsByStrength": [
+        "mj2_c07",
+        "mj2_c08",
+        "mj2_c09"
+      ],
+      "background": "assets/backgrounds/mj2_org03.webp",
+      "backgroundUse": [
+        "organization_select",
+        "vs",
+        "surroundings"
+      ],
+      "clearCondition": "player_final_rank_1",
+      "clearLabel": "撃破",
+      "rateYenPerPoint": 100
+    },
+    {
+      "id": "mj2_org04",
+      "label": "難波大場組",
+      "organizationId": "mj2_org04",
+      "location": "劇場の舞台の上",
+      "description": "大阪を支配する巨大な組織。暴力が全て。",
+      "opponentCount": 3,
+      "selection": "fixed",
+      "rosterFixedFor": "east_south_match",
+      "characterIds": [
+        "mj2_c10",
+        "mj2_c11",
+        "mj2_c12"
+      ],
+      "characterIdsByStrength": [
+        "mj2_c10",
+        "mj2_c11",
+        "mj2_c12"
+      ],
+      "background": "assets/backgrounds/mj2_org04.webp",
+      "backgroundUse": [
+        "organization_select",
+        "vs",
+        "surroundings"
+      ],
+      "clearCondition": "player_final_rank_1",
+      "clearLabel": "撃破",
+      "rateYenPerPoint": 200
+    },
+    {
+      "id": "mj2_org05",
+      "label": "邪見山連盟",
+      "organizationId": "mj2_org05",
+      "location": "飲み屋",
+      "description": "広島を支配する、血も涙もない優秀な組織。日本最強とも言われる。",
+      "opponentCount": 3,
+      "selection": "fixed",
+      "rosterFixedFor": "east_south_match",
+      "characterIds": [
+        "mj2_c13",
+        "mj2_c14",
+        "mj2_c15"
+      ],
+      "characterIdsByStrength": [
+        "mj2_c14",
+        "mj2_c13",
+        "mj2_c15"
+      ],
+      "background": "assets/backgrounds/mj2_org05.webp",
+      "backgroundUse": [
+        "organization_select",
+        "vs",
+        "surroundings"
+      ],
+      "clearCondition": "player_final_rank_1",
+      "clearLabel": "撃破",
+      "rateYenPerPoint": 500
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+ "org_mj2_org01": {
+  "src": "01_SOSIKI_NAME.wav",
+  "start": 0.23,
+  "end": 1.12
+ },
+ "org_mj2_org02": {
+  "src": "01_SOSIKI_NAME.wav",
+  "start": 1.94,
+  "end": 3.11
+ },
+ "org_mj2_org03": {
+  "src": "01_SOSIKI_NAME.wav",
+  "start": 3.98,
+  "end": 5.26
+ },
+ "org_mj2_org04": {
+  "src": "01_SOSIKI_NAME.wav",
+  "start": 6.09,
+  "end": 7.3
+ },
+ "org_mj2_org05": {
+  "src": "01_SOSIKI_NAME.wav",
+  "start": 8.12,
+  "end": 9.49
+ },
+ "start_match": {
+  "src": "02_START.wav",
+  "start": 0.27,
+  "end": 1.43
+ },
+ "start_round": {
+  "src": "02_START.wav",
+  "start": 2.27,
+  "end": 3.15
+ },
+ "rank_mangan": {
+  "src": "03_AGARI.wav",
+  "start": 0.22,
+  "end": 0.91
+ },
+ "rank_haneman": {
+  "src": "03_AGARI.wav",
+  "start": 1.68,
+  "end": 2.42
+ },
+ "rank_baiman": {
+  "src": "03_AGARI.wav",
+  "start": 3.22,
+  "end": 3.93
+ },
+ "rank_sanbaiman": {
+  "src": "03_AGARI.wav",
+  "start": 4.75,
+  "end": 5.69
+ },
+ "rank_yakuman": {
+  "src": "03_AGARI.wav",
+  "start": 6.5,
+  "end": 7.17
+ },
+ "role_std_double_riichi": {
+  "src": "04_YAKU01.wav",
+  "start": 0.17,
+  "end": 1.16
+ },
+ "role_std_ippatsu": {
+  "src": "04_YAKU01.wav",
+  "start": 1.99,
+  "end": 2.78
+ },
+ "role_std_menzen_tsumo": {
+  "src": "04_YAKU01.wav",
+  "start": 3.61,
+  "end": 5.06
+ },
+ "role_std_tanyao": {
+  "src": "04_YAKU01.wav",
+  "start": 5.87,
+  "end": 6.61
+ },
+ "role_std_pinfu": {
+  "src": "04_YAKU01.wav",
+  "start": 7.47,
+  "end": 8.14
+ },
+ "role_std_iipeikou": {
+  "src": "04_YAKU01.wav",
+  "start": 9.0,
+  "end": 9.92
+ },
+ "role_std_haku": {
+  "src": "04_YAKU01.wav",
+  "start": 10.78,
+  "end": 11.21
+ },
+ "role_std_hatsu": {
+  "src": "04_YAKU01.wav",
+  "start": 12.04,
+  "end": 12.52
+ },
+ "role_std_chun": {
+  "src": "04_YAKU01.wav",
+  "start": 13.36,
+  "end": 13.79
+ },
+ "role_std_seat_wind": {
+  "src": "04_YAKU01.wav",
+  "start": 14.64,
+  "end": 15.33
+ },
+ "role_std_round_wind": {
+  "src": "04_YAKU01.wav",
+  "start": 16.16,
+  "end": 16.81
+ },
+ "role_std_rinshan": {
+  "src": "04_YAKU01.wav",
+  "start": 17.65,
+  "end": 18.83
+ },
+ "role_std_chankan": {
+  "src": "04_YAKU01.wav",
+  "start": 19.66,
+  "end": 20.39
+ },
+ "role_std_haitei": {
+  "src": "04_YAKU01.wav",
+  "start": 21.17,
+  "end": 22.32
+ },
+ "role_std_houtei": {
+  "src": "04_YAKU01.wav",
+  "start": 23.18,
+  "end": 24.29
+ },
+ "role_std_sanshoku_doujun": {
+  "src": "04_YAKU01.wav",
+  "start": 25.12,
+  "end": 26.31
+ },
+ "role_std_ittsuu": {
+  "src": "05_YAKU02.wav",
+  "start": 0.2,
+  "end": 1.22
+ },
+ "role_std_chanta": {
+  "src": "05_YAKU02.wav",
+  "start": 2.05,
+  "end": 2.7
+ },
+ "role_std_chiitoitsu": {
+  "src": "05_YAKU02.wav",
+  "start": 3.5,
+  "end": 4.35
+ },
+ "role_std_toitoi": {
+  "src": "05_YAKU02.wav",
+  "start": 5.15,
+  "end": 6.07
+ },
+ "role_std_sanankou": {
+  "src": "05_YAKU02.wav",
+  "start": 6.89,
+  "end": 7.88
+ },
+ "role_std_sankantsu": {
+  "src": "05_YAKU02.wav",
+  "start": 8.7,
+  "end": 9.71
+ },
+ "role_std_sanshoku_doukou": {
+  "src": "05_YAKU02.wav",
+  "start": 10.49,
+  "end": 11.71
+ },
+ "role_std_honroutou": {
+  "src": "05_YAKU02.wav",
+  "start": 12.52,
+  "end": 13.47
+ },
+ "role_std_shousangen": {
+  "src": "05_YAKU02.wav",
+  "start": 14.25,
+  "end": 15.21
+ },
+ "role_std_honitsu": {
+  "src": "05_YAKU02.wav",
+  "start": 16.04,
+  "end": 16.95
+ },
+ "role_std_junchan": {
+  "src": "05_YAKU02.wav",
+  "start": 17.78,
+  "end": 18.48
+ },
+ "role_std_ryanpeikou": {
+  "src": "05_YAKU02.wav",
+  "start": 19.26,
+  "end": 20.21
+ },
+ "role_std_chinitsu": {
+  "src": "05_YAKU02.wav",
+  "start": 21.04,
+  "end": 21.97
+ },
+ "role_std_kokushi": {
+  "src": "05_YAKU02.wav",
+  "start": 22.76,
+  "end": 23.73
+ },
+ "role_std_suuankou": {
+  "src": "06_YAKU03.wav",
+  "start": 0.15,
+  "end": 1.15
+ },
+ "role_std_daisangen": {
+  "src": "06_YAKU03.wav",
+  "start": 1.95,
+  "end": 2.85
+ },
+ "role_std_shousuushii": {
+  "src": "06_YAKU03.wav",
+  "start": 3.68,
+  "end": 4.72
+ },
+ "role_std_daisuushii": {
+  "src": "06_YAKU03.wav",
+  "start": 5.55,
+  "end": 6.51
+ },
+ "role_std_tsuuiisou": {
+  "src": "06_YAKU03.wav",
+  "start": 7.35,
+  "end": 8.32
+ },
+ "role_std_chinroutou": {
+  "src": "06_YAKU03.wav",
+  "start": 9.16,
+  "end": 10.09
+ },
+ "role_std_ryuuiisou": {
+  "src": "06_YAKU03.wav",
+  "start": 10.92,
+  "end": 11.9
+ },
+ "role_std_chuuren": {
+  "src": "06_YAKU03.wav",
+  "start": 12.68,
+  "end": 13.82
+ },
+ "role_std_suukantsu": {
+  "src": "06_YAKU03.wav",
+  "start": 14.65,
+  "end": 15.58
+ },
+ "role_std_tenhou": {
+  "src": "06_YAKU03.wav",
+  "start": 16.43,
+  "end": 17.16
+ },
+ "role_std_chiihou": {
+  "src": "06_YAKU03.wav",
+  "start": 17.99,
+  "end": 18.74
+ },
+ "role_sp_jackpot": {
+  "src": "06_YAKU03.wav",
+  "start": 19.56,
+  "end": 20.97
+ },
+ "role_sp_furikomi_master": {
+  "src": "06_YAKU03.wav",
+  "start": 21.81,
+  "end": 22.94
+ },
+ "role_sp_naki3": {
+  "src": "06_YAKU03.wav",
+  "start": 23.76,
+  "end": 24.78
+ },
+ "role_sp_naki_joe": {
+  "src": "06_YAKU03.wav",
+  "start": 25.63,
+  "end": 26.53
+ },
+ "role_sp_aho": {
+  "src": "06_YAKU03.wav",
+  "start": 27.36,
+  "end": 28.19
+ },
+ "role_sp_3745": {
+  "src": "07_YAKU04.wav",
+  "start": 0.21,
+  "end": 1.03
+ },
+ "role_sp_nakanishi": {
+  "src": "07_YAKU04.wav",
+  "start": 1.88,
+  "end": 2.85
+ },
+ "role_sp_777": {
+  "src": "07_YAKU04.wav",
+  "start": 3.67,
+  "end": 4.67
+ },
+ "role_sp_monopoly": {
+  "src": "07_YAKU04.wav",
+  "start": 5.5,
+  "end": 6.26
+ },
+ "role_sp_odd": {
+  "src": "07_YAKU04.wav",
+  "start": 7.08,
+  "end": 8.03
+ },
+ "role_sp_even": {
+  "src": "07_YAKU04.wav",
+  "start": 8.86,
+  "end": 9.87
+ },
+ "role_sp_suupontsu": {
+  "src": "07_YAKU04.wav",
+  "start": 10.68,
+  "end": 11.59
+ },
+ "role_idea_031": {
+  "src": "07_YAKU04.wav",
+  "start": 12.4,
+  "end": 13.48
+ },
+ "role_idea_032": {
+  "src": "07_YAKU04.wav",
+  "start": 14.3,
+  "end": 15.15
+ },
+ "role_idea_033": {
+  "src": "07_YAKU04.wav",
+  "start": 15.98,
+  "end": 16.98
+ },
+ "role_idea_034": {
+  "src": "07_YAKU04.wav",
+  "start": 17.78,
+  "end": 19.02
+ },
+ "role_idea_035": {
+  "src": "07_YAKU04.wav",
+  "start": 19.81,
+  "end": 21.01
+ },
+ "role_idea_036": {
+  "src": "07_YAKU04.wav",
+  "start": 21.82,
+  "end": 22.92
+ },
+ "role_idea_037": {
+  "src": "07_YAKU04.wav",
+  "start": 23.71,
+  "end": 24.85
+ },
+ "role_idea_038": {
+  "src": "07_YAKU04.wav",
+  "start": 25.68,
+  "end": 26.75
+ },
+ "role_idea_039": {
+  "src": "07_YAKU04.wav",
+  "start": 27.57,
+  "end": 28.8
+ },
+ "role_idea_040": {
+  "src": "08_YAKU05.wav",
+  "start": 0.19,
+  "end": 1.45
+ },
+ "role_idea_041": {
+  "src": "08_YAKU05.wav",
+  "start": 2.24,
+  "end": 3.33
+ },
+ "role_idea_042": {
+  "src": "08_YAKU05.wav",
+  "start": 4.13,
+  "end": 5.34
+ },
+ "role_idea_043": {
+  "src": "08_YAKU05.wav",
+  "start": 6.19,
+  "end": 7.42
+ },
+ "role_idea_044": {
+  "src": "08_YAKU05.wav",
+  "start": 8.23,
+  "end": 9.46
+ },
+ "role_idea_045": {
+  "src": "08_YAKU05.wav",
+  "start": 10.27,
+  "end": 11.2
+ },
+ "role_idea_046": {
+  "src": "08_YAKU05.wav",
+  "start": 12.0,
+  "end": 13.21
+ },
+ "role_idea_047": {
+  "src": "08_YAKU05.wav",
+  "start": 14.04,
+  "end": 15.0
+ },
+ "role_idea_048": {
+  "src": "08_YAKU05.wav",
+  "start": 15.82,
+  "end": 16.92
+ },
+ "role_idea_049": {
+  "src": "08_YAKU05.wav",
+  "start": 17.74,
+  "end": 18.77
+ },
+ "role_idea_050": {
+  "src": "08_YAKU05.wav",
+  "start": 19.62,
+  "end": 20.78
+ },
+ "role_tiny_pair5": {
+  "src": "08_YAKU05.wav",
+  "start": 21.59,
+  "end": 22.41
+ },
+ "role_sp_tozai": {
+  "src": "08_YAKU05.wav",
+  "start": 23.24,
+  "end": 23.99
+ },
+ "role_sp_nanboku": {
+  "src": "09_YAKU06.wav",
+  "start": 0.22,
+  "end": 1.21
+ },
+ "role_sp_namusan": {
+  "src": "09_YAKU06.wav",
+  "start": 2.0,
+  "end": 2.95
+ },
+ "bundle_4": {
+  "src": "09_YAKU06.wav",
+  "start": 3.76,
+  "end": 4.74
+ },
+ "bundle_8": {
+  "src": "09_YAKU06.wav",
+  "start": 5.56,
+  "end": 6.44
+ },
+ "bundle_12": {
+  "src": "09_YAKU06.wav",
+  "start": 7.28,
+  "end": 8.57
+ },
+ "bundle_16": {
+  "src": "09_YAKU06.wav",
+  "start": 9.4,
+  "end": 10.64
+ },
+ "dora": {
+  "src": "09_YAKU06.wav",
+  "start": 13.23,
+  "end": 13.7
+ },
+ "gold_dora": {
+  "src": "09_YAKU06.wav",
+  "start": 11.5,
+  "end": 12.39
+ },
+ "title_minor": {
+  "src": "09_YAKU06.wav",
+  "start": 14.52,
+  "end": 15.33
+ },
+ "title_majority": {
+  "src": "09_YAKU06.wav",
+  "start": 16.16,
+  "end": 17.0
+ },
+ "title_naki": {
+  "src": "09_YAKU06.wav",
+  "start": 17.83,
+  "end": 18.71
+ },
+ "title_crown": {
+  "src": "09_YAKU06.wav",
+  "start": 19.52,
+  "end": 20.53
+ },
+ "role_std_riichi": {
+  "src": "07_YAKU04.wav",
+  "start": 26.255,
+  "end": 26.725,
+  "note": "ハイテイリーチ の リーチ 部分"
+ }
+}

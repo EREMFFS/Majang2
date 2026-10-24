@@ -1,0 +1,204 @@
+{
+  "version": 1,
+  "currency": "JPY",
+  "assets": [
+    {
+      "id": "bill_10000",
+      "path": "assets/cash/bill_10000.png",
+      "size": [
+        512,
+        216
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        4,
+        13,
+        508,
+        211
+      ],
+      "unitYen": 10000,
+      "source": "builtin_image_generation",
+      "transparent": true
+    },
+    {
+      "id": "bill_10000_back",
+      "path": "assets/cash/bill_10000_back.png",
+      "size": [
+        512,
+        216
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        4,
+        14,
+        508,
+        207
+      ],
+      "unitYen": 10000,
+      "source": "builtin_image_generation",
+      "transparent": true
+    },
+    {
+      "id": "bill_1000",
+      "path": "assets/cash/bill_1000.png",
+      "size": [
+        512,
+        216
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        20,
+        4,
+        499,
+        200
+      ],
+      "unitYen": 1000,
+      "source": "builtin_image_generation",
+      "transparent": true
+    },
+    {
+      "id": "coin_100",
+      "path": "assets/cash/coin_100.png",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        6,
+        5,
+        123,
+        119
+      ],
+      "unitYen": 100,
+      "source": "builtin_image_generation",
+      "transparent": true
+    },
+    {
+      "id": "bundle_100man",
+      "path": "assets/cash/bundle_100man.png",
+      "size": [
+        512,
+        216
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        25,
+        16,
+        497,
+        206
+      ],
+      "unitYen": 1000000,
+      "source": "builtin_image_generation",
+      "transparent": true
+    },
+    {
+      "id": "bundle_side",
+      "path": "assets/cash/bundle_side.png",
+      "size": [
+        512,
+        96
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        136,
+        30,
+        382,
+        84
+      ],
+      "unitYen": 1000000,
+      "source": "builtin_image_generation",
+      "transparent": true
+    },
+    {
+      "id": "case_closed",
+      "path": "assets/cash/case_closed.png",
+      "size": [
+        640,
+        480
+      ],
+      "pivot": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        80,
+        53,
+        560,
+        460
+      ],
+      "unitYen": null,
+      "source": "builtin_image_generation",
+      "transparent": true
+    },
+    {
+      "id": "case_open",
+      "path": "assets/cash/case_open.png",
+      "size": [
+        640,
+        480
+      ],
+      "pivot": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        82,
+        12,
+        557,
+        458
+      ],
+      "unitYen": 1000000,
+      "source": "builtin_image_generation",
+      "transparent": true
+    },
+    {
+      "id": "iou",
+      "path": "assets/cash/iou.png",
+      "size": [
+        400,
+        520
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        19,
+        11,
+        355,
+        494
+      ],
+      "unitYen": null,
+      "source": "builtin_image_generation",
+      "transparent": true
+    }
+  ],
+  "casePivotPolicy": "both cases align at bottom handle, same object-width target",
+  "iouTextRegionNormalized": [
+    0.2,
+    0.35,
+    0.8,
+    0.75
+  ],
+  "audioIncluded": false,
+  "frameSequencesIncluded": false
+}

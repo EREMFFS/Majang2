@@ -1,0 +1,32 @@
+// Browser smoke test with Playwright. node tests/browser_smoke.js <outdir>
+const { chromium } = require('/opt/npm-tools/node_modules/playwright');
+const OUT = process.argv[2] || '/tmp/shots';
+(async () => {
+  const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium' in {} ? undefined : undefined });
+  const page = await browser.newPage({ viewport: { width: 960, height: 720 } });
+  const errors = [];
+  page.on('console', (m) => { if (m.type() === 'error' || m.type() === 'warning') errors.push(m.type() + ': ' + m.text()); });
+  page.on('pageerror', (e) => errors.push('pageerror: ' + e.message));
+  page.on('requestfailed', (r) => errors.push('reqfail: ' + r.url()));
+  await page.goto('http://127.0.0.1:8765/index.html');
+  await page.waitForSelector('.screen-boot', { timeout: 20000 });
+  await page.waitForTimeout(300);
+  await page.screenshot({ path: OUT + '/00_boot.png' });
+  await page.mouse.click(480, 360);
+  await page.waitForTimeout(500);
+  await page.screenshot({ path: OUT + '/01_title.png' });
+  await page.click('.title-menu .item >> nth=0');
+  await page.waitForTimeout(600);
+  await page.screenshot({ path: OUT + '/02_stage.png' });
+  await page.click('.org-card >> nth=2');
+  await page.waitForTimeout(300);
+  await page.click('[data-btn=confirm]');
+  await page.waitForTimeout(1300);
+  await page.screenshot({ path: OUT + '/03_vs.png' });
+  await page.waitForTimeout(2600);
+  await page.screenshot({ path: OUT + '/04_open.png' });
+  await page.waitForTimeout(2500);
+  await page.screenshot({ path: OUT + '/05_table.png' });
+  console.log(errors.join('\n') || 'no console errors');
+  await browser.close();
+})();

@@ -1,0 +1,60 @@
+{
+  "isDemo": true,
+  "roles": [
+    {
+      "role": "役牌・東",
+      "han": 1,
+      "evidence": {
+        "kind": "tiles",
+        "tileIndices": [
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "role": "鳴きのジョー",
+      "han": 2,
+      "evidence": {
+        "kind": "events",
+        "calls": [
+          "chi",
+          "chi",
+          "pon",
+          "pon"
+        ]
+      }
+    }
+  ],
+  "minorRoles": [
+    {
+      "role": "ワンツースリー",
+      "points": 10
+    },
+    {
+      "role": "能天気",
+      "points": 1
+    }
+  ],
+  "hand": [
+    "m1",
+    "m2",
+    "m3",
+    "p4",
+    "p5",
+    "p6",
+    "s7",
+    "s7",
+    "s7",
+    "z1",
+    "z1",
+    "z1",
+    "z7",
+    "z7"
+  ],
+  "basePoints": 5200,
+  "minorPoints": 11,
+  "total": 5211,
+  "note": "点数はデモ。呼び出しの各シーンは独立した演出見本で、連続した一局の再現ではない。"
+}

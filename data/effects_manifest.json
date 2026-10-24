@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "logicalCanvas": [
+    720,
+    540
+  ],
+  "textAssets": {
+    "ron": {
+      "text": "ロン！",
+      "font": "brush",
+      "file": "assets/effects/text/ron.png",
+      "size": [
+        434,
+        163
+      ]
+    },
+    "tsumo": {
+      "text": "ツモ！",
+      "font": "brush",
+      "file": "assets/effects/text/tsumo.png",
+      "size": [
+        434,
+        168
+      ]
+    },
+    "riichi": {
+      "text": "リーチ！",
+      "font": "sharp",
+      "file": "assets/effects/text/riichi.png",
+      "size": [
+        548,
+        184
+      ]
+    },
+    "yakuman_riichi": {
+      "text": "役満リーチ！",
+      "font": "sharp",
+      "file": "assets/effects/text/yakuman_riichi.png",
+      "size": [
+        596,
+        160
+      ]
+    },
+    "pon": {
+      "text": "ポン！",
+      "font": "sharp",
+      "file": "assets/effects/text/pon.png",
+      "size": [
+        434,
+        185
+      ]
+    },
+    "chi": {
+      "text": "チー！",
+      "font": "sharp",
+      "file": "assets/effects/text/chi.png",
+      "size": [
+        434,
+        184
+      ]
+    },
+    "kan": {
+      "text": "カン！",
+      "font": "sharp",
+      "file": "assets/effects/text/kan.png",
+      "size": [
+        434,
+        185
+      ]
+    },
+    "open": {
+      "text": "開局",
+      "font": "brush",
+      "file": "assets/effects/text/open.png",
+      "size": [
+        320,
+        182
+      ]
+    },
+    "match_start": {
+      "text": "対局開始",
+      "font": "sharp",
+      "file": "assets/effects/text/match_start.png",
+      "size": [
+        548,
+        187
+      ]
+    },
+    "round_end": {
+      "text": "局終了",
+      "font": "brush",
+      "file": "assets/effects/text/round_end.png",
+      "size": [
+        434,
+        179
+      ]
+    },
+    "draw": {
+      "text": "流局",
+      "font": "brush",
+      "file": "assets/effects/text/draw.png",
+      "size": [
+        320,
+        179
+      ]
+    },
+    "match_end": {
+      "text": "東南戦終了",
+      "font": "sharp",
+      "file": "assets/effects/text/match_end.png",
+      "size": [
+        662,
+        188
+      ]
+    },
+    "results": {
+      "text": "結果発表",
+      "font": "sharp",
+      "file": "assets/effects/text/results.png",
+      "size": [
+        548,
+        186
+      ]
+    },
+    "yakuman": {
+      "text": "役満",
+      "font": "brush",
+      "file": "assets/effects/text/yakuman.png",
+      "size": [
+        320,
+        181
+      ]
+    },
+    "jackpot": {
+      "text": "スーパージャックポット",
+      "font": "sharp",
+      "file": "assets/effects/text/jackpot.png",
+      "size": [
+        1016,
+        160
+      ]
+    }
+  },
+  "fonts": {
+    "brush": "assets/fonts/yujiboku/YujiBoku-Regular.woff2",
+    "sharp": "assets/fonts/reggaeone/ReggaeOne-Regular.woff2",
+    "heavy": "assets/fonts/delagothicone/DelaGothicOne-Regular.woff2"
+  },
+  "effects": {
+    "call_riichi": {
+      "durationMs": 1050,
+      "text": "riichi",
+      "soundCueMs": 100,
+      "enterMs": 120,
+      "holdMs": 650,
+      "exitMs": 280
+    },
+    "call_ron": {
+      "durationMs": 1250,
+      "text": "ron",
+      "soundCueMs": 80,
+      "enterMs": 100,
+      "impactHoldMs": 70,
+      "holdMs": 700,
+      "exitMs": 380,
+      "shakeMaxLogicalPx": 5
+    },
+    "call_tsumo": {
+      "durationMs": 1250,
+      "text": "tsumo",
+      "soundCueMs": 100,
+      "enterMs": 140,
+      "holdMs": 720,
+      "exitMs": 390
+    },
+    "call_pon": {
+      "durationMs": 420,
+      "text": "pon",
+      "soundCueMs": 50
+    },
+    "call_chi": {
+      "durationMs": 420,
+      "text": "chi",
+      "soundCueMs": 50
+    },
+    "call_kan": {
+      "durationMs": 650,
+      "text": "kan",
+      "soundCueMs": 70
+    },
+    "yakuman_ready": {
+      "durationMs": 1800,
+      "text": "yakuman_riichi",
+      "showActualRoleName": true,
+      "soundCueMs": 120
+    },
+    "super_jackpot": {
+      "durationMs": 3600,
+      "text": "jackpot",
+      "scoreText": "million",
+      "soundCueMs": [
+        80,
+        650,
+        1400,
+        2500
+      ]
+    },
+    "round_open": {
+      "durationMs": 1400,
+      "text": "open",
+      "soundCueMs": 120
+    },
+    "round_end": {
+      "durationMs": 1000,
+      "text": "round_end",
+      "soundCueMs": 100
+    },
+    "round_draw": {
+      "durationMs": 1000,
+      "text": "draw",
+      "soundCueMs": 100
+    },
+    "match_start": {
+      "durationMs": 1800,
+      "text": "match_start",
+      "soundCueMs": 200
+    },
+    "match_end": {
+      "durationMs": 2200,
+      "text": "match_end",
+      "soundCueMs": 200
+    },
+    "settlement_role": {
+      "enterMs": 100,
+      "evidenceMs": 400,
+      "holdMs": 450,
+      "exitMs": 150,
+      "soundCueMs": [
+        90,
+        300
+      ]
+    },
+    "settlement_minor": {
+      "enterMs": 150,
+      "holdMs": 900,
+      "exitMs": 150,
+      "soundCueMs": 150
+    },
+    "settlement_total": {
+      "countMs": 850,
+      "holdMs": 650,
+      "soundCueMs": [
+        0,
+        850
+      ]
+    }
+  },
+  "fxLayers": {
+    "ron": "assets/effects/fx/ron_impact.png",
+    "jackpot": "assets/effects/fx/jackpot_halo.png"
+  }
+}

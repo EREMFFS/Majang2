@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "mergeMode": "theme_only_do_not_replace_latest_game_rules",
+  "themeId": "underworld_2200",
+  "title": "麻雀2",
+  "year": 2200,
+  "organizationCount": 5,
+  "stageCount": 5,
+  "characterCount": 16,
+  "opponentCharacterCount": 15,
+  "playerFaceId": "mj2_p01",
+  "showCharacterNames": true,
+  "currency": {
+    "code": "JPY",
+    "suffix": "円",
+    "fractionDigits": 0,
+    "numericScale": 1
+  },
+  "selectTitle": "対戦組織選択",
+  "vsTitleTemplate": "VS {organizationName}",
+  "winLabel": "撃破",
+  "storyEnabled": false,
+  "endingEnabled": false,
+  "voiceBank": "single_deep_male_announcer",
+  "clearSaveNamespace": "underworld_2200",
+  "preserveLatestRules": true
+}

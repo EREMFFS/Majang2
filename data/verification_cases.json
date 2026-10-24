@@ -1,0 +1,258 @@
+[
+  {
+    "id": "cross_suit_123_negative",
+    "purpose": "違う数牌種を混ぜて役を成立させない",
+    "ownedKinds": [
+      "m1",
+      "p2",
+      "s3"
+    ],
+    "expectedAbsent": [
+      "sp_123"
+    ]
+  },
+  {
+    "id": "same_suit_123_positive",
+    "ownedKinds": [
+      "m1",
+      "m2",
+      "m3"
+    ],
+    "expectedPresent": [
+      "sp_123"
+    ]
+  },
+  {
+    "id": "white_triplet_nonwin",
+    "phase": "nonwin_settlement",
+    "ownedKinds": [
+      "z5",
+      "z5",
+      "z5",
+      "m1",
+      "m4",
+      "m7",
+      "p2",
+      "p4",
+      "p8",
+      "s2",
+      "s5",
+      "s9",
+      "z1"
+    ],
+    "expectedPresent": [
+      "std_haku"
+    ],
+    "expectedHanBaseAtLeast": 100
+  },
+  {
+    "id": "naki_priority",
+    "events": [
+      "CHI",
+      "PON",
+      "CHI",
+      "PON"
+    ],
+    "expectedPresent": [
+      "sp_naki_joe"
+    ],
+    "expectedAbsent": [
+      "sp_naki",
+      "sp_naki2",
+      "sp_naki3"
+    ]
+  },
+  {
+    "id": "furikomi_three",
+    "ronRecipients": [
+      1,
+      2,
+      3
+    ],
+    "expectedPresent": [
+      "sp_furikomi_master"
+    ],
+    "expectedAbsent": [
+      "sp_furikomi"
+    ],
+    "expectedFeatureYakumanBase": 32000
+  },
+  {
+    "id": "aho_positive",
+    "ownEvents": [
+      {
+        "type": "DISCARD",
+        "kind": "z2"
+      },
+      {
+        "type": "DRAW",
+        "kind": "z2"
+      },
+      {
+        "type": "DISCARD",
+        "kind": "z2"
+      },
+      {
+        "type": "DRAW",
+        "kind": "z2"
+      },
+      {
+        "type": "DISCARD",
+        "kind": "z2"
+      },
+      {
+        "type": "DRAW",
+        "kind": "z2"
+      }
+    ],
+    "expectedPresent": [
+      "sp_aho"
+    ],
+    "expectedAbsent": [
+      "sp_okaeri"
+    ]
+  },
+  {
+    "id": "jackpot_exact",
+    "targetKinds": [
+      "m1",
+      "m2",
+      "m3",
+      "m4",
+      "m5",
+      "m6",
+      "m7",
+      "m8",
+      "m9",
+      "p1",
+      "p2",
+      "p3",
+      "s1",
+      "z1"
+    ],
+    "handKinds": [
+      "m1",
+      "m2",
+      "m3",
+      "m4",
+      "m5",
+      "m6",
+      "m7",
+      "m8",
+      "m9",
+      "p1",
+      "p2",
+      "p3",
+      "s1",
+      "z1"
+    ],
+    "expectedJackpot": true,
+    "expectedBasePoints": 1000000
+  },
+  {
+    "id": "jackpot_duplicate_negative",
+    "targetKinds": [
+      "m1",
+      "m2",
+      "m3",
+      "m4",
+      "m5",
+      "m6",
+      "m7",
+      "m8",
+      "m9",
+      "p1",
+      "p2",
+      "p3",
+      "s1",
+      "z1"
+    ],
+    "handKinds": [
+      "m1",
+      "m1",
+      "m3",
+      "m4",
+      "m5",
+      "m6",
+      "m7",
+      "m8",
+      "m9",
+      "p1",
+      "p2",
+      "p3",
+      "s1",
+      "z1"
+    ],
+    "expectedJackpot": false
+  },
+  {
+    "id": "nonwin_score",
+    "han": 3,
+    "minorPoints": 16,
+    "fixedPoints": 0,
+    "expectedTotal": 416
+  },
+  {
+    "id": "cap_without_win",
+    "han": 12,
+    "minorPoints": 7,
+    "fixedPoints": 0,
+    "expectedTotal": 1607
+  },
+  {
+    "id": "first_win_continues",
+    "activeBefore": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "winner": 1,
+    "expectedActiveAfter": [
+      0,
+      2,
+      3
+    ],
+    "expectedRoundEnded": false
+  },
+  {
+    "id": "last_player_continues",
+    "activeBefore": [
+      2
+    ],
+    "liveWallCount": 3,
+    "expectedLegalActions": [
+      "draw",
+      "discard"
+    ],
+    "expectedRoundEnded": false
+  },
+  {
+    "id": "no_duplicate_scoring",
+    "settlementId": "match1-E1",
+    "applyAttempts": 2,
+    "roundAward": 416,
+    "expectedCumulativeDelta": 416
+  },
+  {
+    "id": "unknown_roles",
+    "awardedRoleIds": [],
+    "cpuOnlyAwarded": [
+      "sp_aho"
+    ],
+    "expectedPlayerRoleName": "？？？？"
+  },
+  {
+    "id": "forced_yakuman_deal",
+    "traitCharacterIds": [
+      "s01_01"
+    ],
+    "assertions": [
+      "国士13種で実テンパイ",
+      "各牌種４枚以下",
+      "合計136物理枚",
+      "王牌14枚",
+      "他家手牌と山も整合"
+    ]
+  }
+]

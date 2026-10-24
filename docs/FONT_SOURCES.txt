@@ -1,0 +1,11 @@
+Google Fonts公式配布元（取得日 2026-10-20）
+https://fonts.google.com/specimen/Yuji+Boku
+https://fonts.google.com/specimen/Reggae+One
+https://fonts.google.com/specimen/Dela+Gothic+One
+
+実ファイルとライセンス:
+https://github.com/google/fonts/tree/main/ofl/yujiboku
+https://github.com/google/fonts/tree/main/ofl/reggaeone
+https://github.com/google/fonts/tree/main/ofl/delagothicone
+
+各フォントと同じフォルダにOFL.txtを同梱。フォントファイルの改変なし。
